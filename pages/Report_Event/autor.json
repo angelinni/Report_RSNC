@@ -1,0 +1,57 @@
+[
+    {
+    "informacion_GM":[
+        "A. Agudelo",
+        "E. Mayorga",
+        "E. Poveda",
+        "F. Garzón",
+        "I. Molina",
+        "L. Aguirre",
+        "M. Lizarazo",
+        "O. Mercado",
+        "R. Bolaños",
+        "V. Dionicio",
+        "J. Soriano"
+        ],
+    "valores_aceleracion":[
+        "L. Castillo",
+        "G. Redondo",
+        "E. Mazo",
+        "H. Garcí",
+        "J. Soriano"
+        ],
+    "intensidad_instrumental":[
+        "E. Mayorga",
+        "M. Arcila",
+        "D. Barbosa",
+        "F. Díaz",
+        "M. López",
+        "N. Perico",
+        "L. Mateus",
+        "J. Montejo",
+        "M. Mora",
+        "H. Pérez",
+        "A. Robayo",
+        "A. Sarabia",
+        "J. Valcarcel",
+        "D. Zornosa",
+        "J. Soriano"
+        ],
+    "intensidad_PDEH":[
+        "M. Arcila",
+        "D. Barbosa",
+        "F. Díaz",
+        "M. López",
+        "N. Perico",
+        "L. Mateus",
+        "J. Montejo",
+        "M. Mora",
+        "H. Pérez",
+        "A. Robayo",
+        "A. Sarabia",
+        "J. Valcarcel",
+        "D. Zornosa",
+        "J. Soriano"
+        ]
+    }
+]

@@ -1,0 +1,5 @@
+"Nombre Estación","Red","Código","Latitud(°)","Longitud(°)","Localizador","Elevación(msnm)","Dist.Epi(km)","Dist.Hip(km)","PGA EW(cm/s^2)","PGA NS(cm/s^2)","PGA Z(cm/s^2)"
+"Bochalema, Norte de Santander, Colombia","CM","BLMC","7.71","-72.6","10","996","410","421","0.007078","0.007912","0.006717"
+"Pamplona, Norte de Santander, Colombia","CM","CPAMP","7.38","-72.64","10","2384","432","443","2.306657","2.28122","0.623048"
+"Tame, Arauca, Colombia","CM","TAM","6.44","-71.79","10","462.1","433","444","0.049523","0.065171","0.031909"
+"Ocana, Norte de Santander, Colombia","CM","OCA","8.24","-73.32","10","1264","459","470","0.007552","0.008508","0.01855"
