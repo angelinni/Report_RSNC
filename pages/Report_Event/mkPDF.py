@@ -10,7 +10,7 @@ from reportlab.platypus.tables import Table
 #from reportlab.plattypus import SimpleDocTemplate
 from reportlab.lib.styles import getSampleStyleSheet,ParagraphStyle
 from reportlab.lib.enums import TA_LEFT, TA_RIGHT, TA_CENTER, TA_JUSTIFY,  TA_LEFT
-from tkinter.ttk import Style
+#from tkinter.ttk import Style
 #import PDF_Images as PDF_I
 import json
 import os

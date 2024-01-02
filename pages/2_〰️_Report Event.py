@@ -18,7 +18,7 @@ st.set_page_config(
       **si encuentra un error escribir al correo adagudelo@sgc.gov.co o jsoriano@sgc.gov.co**""",}
 )
 
-@st.cache
+@st.cache_resource
 def libr():
     mkPDF = st.session_state["mkPDF"]
     web_inf = st.session_state["web_inf"] 
