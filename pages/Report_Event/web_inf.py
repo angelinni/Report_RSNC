@@ -213,8 +213,8 @@ class Reporte:
             driver.get(fuente)
             sleep(2)
 
-            tab_ac = driver.find_element(by=By.XPATH, value='//*[@id="scrollable-auto-tabpanel-0"]/div/div/div/div/div[1]/div[2]/button[2]/span[1]').click()
-            sleep(2)
+            tab_ac = driver.find_element(by=By.XPATH, value='//*[@id="scrollable-auto-tabpanel-0"]/div/div/div/div/div[1]/div[2]/button[2]').click()
+            sleep(2)                                         
             os.system(f"mv {download_folder}/tableDownload.csv {download_folder}/Tables/aceleracion_{id}.csv")
 
             #Extraccion de datos
@@ -287,14 +287,17 @@ class Reporte:
             sleep(2)
             tab_ac = driver.find_element(by=By.XPATH, value='//*[@id="scrollable-auto-tab-3"]/span[1]').click()
             sleep(3)
-            mapa = driver.find_element(by=By.XPATH, value='//*[@id="interactive_map"]')
+            mapa = driver.find_element(by=By.XPATH, value='//*[@id="scrollable-auto-tab-3"]')
+             
             
             
             #recorte de mapa
             location = mapa.location
             size = mapa.size
-            zoom = driver.find_element(by=By.XPATH, value='//*[@id="interactive_map"]/div[2]/div[2]/div[2]/a[2]').click()
+            zoom = driver.find_element(by=By.XPATH, value='//*[@id="interactive_map"]/div[2]/div[1]/div[1]/a[2]').click()
             
+            
+                                                           
             sleep(2)
             driver.save_screenshot(download_folder +'/Images/mapa_ac.png')
             x = location['x']
@@ -303,7 +306,8 @@ class Reporte:
             height = location['y'] + size['height']
             
             im = Image.open(download_folder+'/Images/mapa_ac.png')
-            im = im.crop((int(x)+350, int(y)+175, int(width)-350, int(height)))
+            #im = im.crop((int(x)+350, int(y)+175, int(width)-350, int(height)))
+            im = im.crop((int(550), int(550), int(width)+300, int(height)+800))
             im.save(download_folder+f"/Images/map_ac_{id}.png")
             os.system('rm ' + download_folder +'/Images/mapa_ac.png')
             
@@ -327,7 +331,7 @@ class Reporte:
             escala = 'Mercalli modificada (MMI)'
             
             #Extraccion de datos
-            file = requests.get(f"https://archive.sgc.gov.co/events/{id}/mmi/grid.xml")
+            file = requests.get(f"https://archive.sgc.gov.co/events/{id}/mmi/grid.xml", verify=False)
             
             if file.content[len(file.content)-6:len(file.content)-1] == b'Error':
                 
@@ -335,7 +339,7 @@ class Reporte:
                 
             else:
                 
-                file = requests.get(f"https://archive.sgc.gov.co/events/{id}/mmi/grid.xml")
+                file = requests.get(f"https://archive.sgc.gov.co/events/{id}/mmi/grid.xml", verify=False)
 
             
             open(download_folder + '/Tables/grid.xml', 'wb').write(file.content)
@@ -382,14 +386,15 @@ class Reporte:
                 json.dump(datos_json, file)
 
             #mapa
-            mapa = requests.get(f"{fuente}/intensity.jpg")
+            mapa = requests.get(f"{fuente}/intensity.jpg", verify=False)
+            
             if mapa.content[len(mapa.content)-6:len(mapa.content)-1] == b'Error':
                 
                 map_intensidad = requests.get(f"https://xylon.sgc.gov.co/eqevents/events/{id[3:7]}/{id}/mmi/intensity.jpg", verify=False)
                 
             else:
                 
-                map_intensidad = requests.get(f"{fuente}/intensity.jpg")
+                map_intensidad = requests.get(f"{fuente}/intensity.jpg", verify=False)
 
             open(download_folder + f"/Images/map_intensity_{id}.jpg", 'wb').write(map_intensidad.content)
             
@@ -411,7 +416,7 @@ class Reporte:
 
             #Extracción de datos en formato .xlsx,    
             #se puede en .csv  directamente desde la pagina pero ahí tiene un error en los valores de intensidad
-            file = requests.get(f"https://sismosentido.sgc.gov.co/EvaluacionIntensidadesServlet?metodo=tablaRespuestasXLS&idSismo={id}")
+            file = requests.get(f"https://sismosentido.sgc.gov.co/EvaluacionIntensidadesServlet?metodo=tablaRespuestasXLS&idSismo={id}", verify=False)
             open(download_folder + f"/Reportes_Intpercibida_{id}.xlsx", 'wb').write(file.content)
 
             tit = ['Centro poblado', 'Municipio', 'Intensidad', 'No. formularios', 'Distancia al hipocentro', 'Latitud', 'Longitud']

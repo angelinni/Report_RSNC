@@ -180,85 +180,85 @@ class Reporte:
     #Valores de aceleracion
     def inf_aceleracion(self):
 
-        try:
+        #try:
 
-            driver = self.driver
-            id = self.id
-            download_folder = self.download_folder
+        driver = self.driver
+        id = self.id
+        download_folder = self.download_folder
 
-            fuente = f"https://www.sgc.gov.co/detallesismo/{id}/sm"
-            driver.get(fuente)
-            sleep(2)
+        fuente = f"https://www.sgc.gov.co/detallesismo/{id}/sm"
+        driver.get(fuente)
+        sleep(2)
 
-            tab_ac = driver.find_element_by_xpath('//*[@id="scrollable-auto-tabpanel-0"]/div/div/div/div/div[1]/div[2]/button[2]/span[1]').click()
-            sleep(2)
-            os.system(f"mv {download_folder}/tableDownload.csv {download_folder}/Tables/aceleracion_{id}.csv")
+        tab_ac = driver.find_element_by_xpath('//*[@id="scrollable-auto-tabpanel-0"]/div/div/div/div/div[1]/div[2]/button[2]/span[1]').click()
+        sleep(2)
+        os.system(f"mv {download_folder}/tableDownload.csv {download_folder}/Tables/aceleracion_{id}.csv")
 
-            #Extraccion de datos
-            tab = pd.read_csv(f"{download_folder}/Tables/aceleracion_{id}.csv")
-            ##Estación más cercana
-            in_min_dist = tab['Dist.Epi(km)'].idxmin()
-            codigo1 = tab.loc[in_min_dist]['Código']
-            nombre_estacion_min = tab.loc[in_min_dist]['Nombre Estación']
-            estacion_min1 = tab.loc[in_min_dist]['Código']
-            dist_epi1 = int(tab.loc[in_min_dist]['Dist.Epi(km)'])
-            dist_hip1 = int(tab.loc[in_min_dist]['Dist.Hip(km)'])
-            ac_ew1 = round(float(tab.loc[in_min_dist]['PGA EW(cm/s^2)']), 2)
-            ac_ns1 = round(float(tab.loc[in_min_dist]['PGA NS(cm/s^2)']), 2)
-            ac_z1 = round(float(tab.loc[in_min_dist]['PGA Z(cm/s^2)']), 2)
+        #Extraccion de datos
+        tab = pd.read_csv(f"{download_folder}/Tables/aceleracion_{id}.csv")
+        ##Estación más cercana
+        in_min_dist = tab['Dist.Epi(km)'].idxmin()
+        codigo1 = tab.loc[in_min_dist]['Código']
+        nombre_estacion_min = tab.loc[in_min_dist]['Nombre Estación']
+        estacion_min1 = tab.loc[in_min_dist]['Código']
+        dist_epi1 = int(tab.loc[in_min_dist]['Dist.Epi(km)'])
+        dist_hip1 = int(tab.loc[in_min_dist]['Dist.Hip(km)'])
+        ac_ew1 = round(float(tab.loc[in_min_dist]['PGA EW(cm/s^2)']), 2)
+        ac_ns1 = round(float(tab.loc[in_min_dist]['PGA NS(cm/s^2)']), 2)
+        ac_z1 = round(float(tab.loc[in_min_dist]['PGA Z(cm/s^2)']), 2)
 
-            datos1 = [nombre_estacion_min, codigo1, dist_epi1, dist_hip1, ac_ew1, ac_ns1, ac_z1]
-            
-            ##Aceleracion maxima
-            in_max_ac = tab['PGA EW(cm/s^2)'].idxmax()
-            codigo2 = tab.loc[in_max_ac]['Código']
-            nombre_estacion_max = tab.loc[in_max_ac]['Nombre Estación']
-            dist_epi2 = int(tab.loc[in_max_ac]['Dist.Epi(km)'])
-            dist_hip2 = int(tab.loc[in_max_ac]['Dist.Hip(km)'])
-            ac_ew2 = round(float(tab.loc[in_max_ac]['PGA EW(cm/s^2)']), 2)
-            ac_ns2 = round(float(tab.loc[in_max_ac]['PGA NS(cm/s^2)']), 2)
-            ac_z2 = round(float(tab.loc[in_max_ac]['PGA Z(cm/s^2)']), 2)
-            
-            datos2 = [nombre_estacion_max, codigo2, dist_epi2, dist_hip2, ac_ew2, ac_ns2, ac_z2,fuente]
-            datos_ac = [datos1, datos2]
-            observ = ""
-            quien = ""
+        datos1 = [nombre_estacion_min, codigo1, dist_epi1, dist_hip1, ac_ew1, ac_ns1, ac_z1]
+        
+        ##Aceleracion maxima
+        in_max_ac = tab['PGA EW(cm/s^2)'].idxmax()
+        codigo2 = tab.loc[in_max_ac]['Código']
+        nombre_estacion_max = tab.loc[in_max_ac]['Nombre Estación']
+        dist_epi2 = int(tab.loc[in_max_ac]['Dist.Epi(km)'])
+        dist_hip2 = int(tab.loc[in_max_ac]['Dist.Hip(km)'])
+        ac_ew2 = round(float(tab.loc[in_max_ac]['PGA EW(cm/s^2)']), 2)
+        ac_ns2 = round(float(tab.loc[in_max_ac]['PGA NS(cm/s^2)']), 2)
+        ac_z2 = round(float(tab.loc[in_max_ac]['PGA Z(cm/s^2)']), 2)
+        
+        datos2 = [nombre_estacion_max, codigo2, dist_epi2, dist_hip2, ac_ew2, ac_ns2, ac_z2,fuente]
+        datos_ac = [datos1, datos2]
+        observ = ""
+        quien = ""
 
-            #Creacion de Json
-            datos_json = [{'inf_aceleracion':datos_ac,'observaciones':observ,'quien_reviso':quien}]
-            with open(download_folder + '/Data/' + f"inf_aceleracion_{id}.json", 'w') as (file):
-                json.dump(datos_json, file)
+        #Creacion de Json
+        datos_json = [{'inf_aceleracion':datos_ac,'observaciones':observ,'quien_reviso':quien}]
+        with open(download_folder + '/Data/' + f"inf_aceleracion_{id}.json", 'w') as (file):
+            json.dump(datos_json, file)
 
-            #Mapa
-            driver.set_window_size(1350, 1800)
-            driver.get(f"https://www.sgc.gov.co/detallesismo/{id}/sm")
-            sleep(2)
-            tab_ac = driver.find_element_by_xpath('//*[@id="scrollable-auto-tab-3"]/span[1]').click()
-            sleep(3)
-            mapa = driver.find_element_by_xpath('//*[@id="interactive_map"]')
-            
-            #recorte de mapa
-            location = mapa.location
-            size = mapa.size
-            zoom = driver.find_element_by_xpath('//*[@id="interactive_map"]/div[2]/div[2]/div[3]/a[2]').click()
-            sleep(2)
-            driver.save_screenshot(download_folder +'/Images/mapa_ac.png')
-            x = location['x']
-            y = location['y']
-            width = location['x'] + size['width']
-            height = location['y'] + size['height']
-            
-            im = Image.open(download_folder+'/Images/mapa_ac.png')
-            im = im.crop((int(x)+350, int(y)+175, int(width)-350, int(height)))
-            im.save(download_folder+f"/Images/map_ac_{id}.png")
-            os.system('rm ' + download_folder +'/Images/mapa_ac.png')
-            
-            return True
+        #Mapa
+        driver.set_window_size(1350, 1800)
+        driver.get(f"https://www.sgc.gov.co/detallesismo/{id}/sm")
+        sleep(2)
+        tab_ac = driver.find_element_by_xpath('//*[@id="scrollable-auto-tab-3"]/span[1]').click()
+        sleep(3)
+        mapa = driver.find_element_by_xpath('//*[@id="interactive_map"]')
+        
+        #recorte de mapa
+        location = mapa.location
+        size = mapa.size
+        zoom = driver.find_element_by_xpath('//*[@id="interactive_map"]/div[2]/div[2]/div[3]/a[2]').click()
+        sleep(2)
+        driver.save_screenshot(download_folder +'/Images/mapa_ac.png')
+        x = location['x']
+        y = location['y']
+        width = location['x'] + size['width']
+        height = location['y'] + size['height']
+        
+        im = Image.open(download_folder+'/Images/mapa_ac.png')
+        im = im.crop((int(x)+350, int(y)+175, int(width)-350, int(height)))
+        im.save(download_folder+f"/Images/map_ac_{id}.png")
+        os.system('rm ' + download_folder +'/Images/mapa_ac.png')
+        
+        return True
 
-        except:
+        #except:
 
-            return False
-            print('\t\t No existe Valores de aceleracion para este evento')
+        #    return False
+        #    print('\t\t No existe Valores de aceleracion para este evento')
 
     #Intensidad instrumental
     def inf_instrumental(self):
