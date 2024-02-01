@@ -14,6 +14,7 @@ from reportlab.lib.enums import TA_LEFT, TA_RIGHT, TA_CENTER, TA_JUSTIFY,  TA_LE
 #import PDF_Images as PDF_I
 import json
 import os
+import os.path
 from sympy import *
 #import perceived_intensity as pi
 
@@ -69,7 +70,7 @@ width, height = A4
 
 def mkPDF_report(ID_event):
     canv = canvas.Canvas("Reporte_Sismo_Destacado.pdf", pagesize = A4)     #A4=210x297 mm
-    folder="Events/"+ID_event
+    folder=os.path.dirname(os.path.abspath(__file__))+"/Events/"+ID_event
 
     def background(ID_event_PDF):
         # Fondo superior recurrente de las paginas
@@ -98,11 +99,11 @@ def mkPDF_report(ID_event):
         canv.drawString(100 * mm, 265 * mm,local_date[11:19]+" "+location_ev)
 
         #logo SGC
-        logo = ImageReader("PDF_Images/Simbolo_SGC_Color.png")
+        logo = ImageReader(os.path.dirname(os.path.abspath(__file__))+"/PDF_Images/Simbolo_SGC_Color.png")
         canv.drawImage(logo, 10*mm, 250*mm,width = 60*mm, preserveAspectRatio=True)
         
         #Baner inferior 
-        baner= ImageReader("PDF_Images/Banner_inferior.png")
+        baner= ImageReader(os.path.dirname(os.path.abspath(__file__))+"/PDF_Images/Banner_inferior.png")
         canv.drawImage(baner, 5*mm, -25*mm,width = 210*mm, preserveAspectRatio=True)
     
     #Estilo parrrafos 
@@ -117,7 +118,7 @@ def mkPDF_report(ID_event):
     canv.setFont('Helvetica', 12)
     canv.setFillColor(HexColor("#ffffff"))
     canv.drawString(40 * mm, 253 * mm, "Parametros generales del sismo" )
-    logo_generalidades =ImageReader("PDF_Images/Sismograma_Parámetros generales.png")
+    logo_generalidades =ImageReader(os.path.dirname(os.path.abspath(__file__))+"/PDF_Images/Sismograma_Parámetros generales.png")
     canv.drawImage(logo_generalidades,10 * mm, 234 * mm, width = 18*mm, preserveAspectRatio=True, mask='auto')
     
     #leer los datos guardados
@@ -184,7 +185,7 @@ def mkPDF_report(ID_event):
         canv.setFont('Helvetica', 12)
         canv.setFillColor(HexColor("#ffffff"))
         canv.drawString( 40* mm, 133 * mm, "Mecanismo Focal" )
-        logo_focal =ImageReader("PDF_Images/Mecanismo focal.png")
+        logo_focal =ImageReader(os.path.dirname(os.path.abspath(__file__))+"/PDF_Images/Mecanismo focal.png")
         canv.drawImage(logo_focal,10 * mm, 124 * mm, width = 9*mm, preserveAspectRatio=True, mask='auto')
 
         #Leer datos guardados
@@ -249,7 +250,7 @@ def mkPDF_report(ID_event):
             #plor_tipo_de_falla
             if os.path.exists(os.path.dirname(os.path.abspath(__file__))+f"/fallas/{Tipo_de_falla}.png") == True:
 
-                img_tf = ImageReader(f"fallas/{Tipo_de_falla}.png")
+                img_tf = ImageReader(os.path.dirname(os.path.abspath(__file__))+f"/fallas/{Tipo_de_falla}.png")
                 canv.drawImage(img_tf, 5* mm, 35* mm, width = 70*mm, height = 50*mm, mask='auto')
         else :
             canv.setFillColor(HexColor("#667f00"))
@@ -257,7 +258,7 @@ def mkPDF_report(ID_event):
             canv.setFont('Helvetica', 12)
             canv.setFillColor(HexColor("#ffffff"))
             canv.drawString( 40* mm, 133 * mm, "Mecanismo Focal" )
-            logo_focal =ImageReader("PDF_Images/Mecanismo focal.png")
+            logo_focal =ImageReader(os.path.dirname(os.path.abspath(__file__))+"/PDF_Images/Mecanismo focal.png")
             canv.drawImage(logo_focal,10 * mm, 124 * mm, width = 9*mm, preserveAspectRatio=True, mask='auto')
 
 
@@ -283,7 +284,7 @@ def mkPDF_report(ID_event):
             tableMF.wrapOn(canv, width, height)
             tableMF.drawOn(canv, 85*mm, 70*mm)   #posicion de la tabla
             #plot_Mecanismo_focal
-            Img_mf_f =ImageReader((f"PDF_Images/mecanismo_focal_muestra.png"))
+            Img_mf_f =ImageReader((os.path.dirname(os.path.abspath(__file__))+f"/PDF_Images/mecanismo_focal_muestra.png"))
             canv.drawImage(Img_mf_f, 20* mm, 60* mm, width = 50*mm, height = 50*mm,mask=[0, 2, 0, 2, 0, 2])
         
 
@@ -303,7 +304,7 @@ def mkPDF_report(ID_event):
         canv.setFont('Helvetica', 12)
         canv.setFillColor(HexColor("#ffffff"))
         canv.drawString( 40* mm, 253 * mm, "Valores de aceleración" )
-        logo_acceleration =ImageReader("PDF_Images/Valores_aceleracion.png")
+        logo_acceleration =ImageReader(os.path.dirname(os.path.abspath(__file__))+"/PDF_Images/Valores_aceleracion.png")
         canv.drawImage(logo_acceleration,10 * mm, 214 * mm, width = 9*mm,preserveAspectRatio=True,  mask='auto')
         
         #leer datos guardados
@@ -421,7 +422,7 @@ def mkPDF_report(ID_event):
         Img_a =ImageReader(f"{folder}/Images/map_ac_{ID_event}.png")
         canv.drawImage(Img_a, 5* mm, 90* mm, width = 75*mm,preserveAspectRatio=True, mask='auto')
         #Leyenda aceleraciones
-        Img_leyenda_acc =ImageReader("PDF_Images/leyenda_ac.png")
+        Img_leyenda_acc =ImageReader(os.path.dirname(os.path.abspath(__file__))+"/PDF_Images/leyenda_ac.png")
         canv.drawImage(Img_leyenda_acc, 27* mm, 70* mm, width = 37*mm,preserveAspectRatio=True, mask='auto')
     
     
@@ -434,7 +435,7 @@ def mkPDF_report(ID_event):
         canv.setFont('Helvetica', 12)
         canv.setFillColor(HexColor("#ffffff"))
         canv.drawString( 40* mm, 143 * mm, "Intensidad instrumental" )
-        logo_Instrumental_intensity=ImageReader("PDF_Images/Intensidad instrumental.png")
+        logo_Instrumental_intensity=ImageReader(os.path.dirname(os.path.abspath(__file__))+"/PDF_Images/Intensidad instrumental.png")
         canv.drawImage(logo_Instrumental_intensity,10 * mm, 39 * mm, width = 12*mm, preserveAspectRatio=True, mask='auto')
 
         #Tabla, Datos
@@ -500,17 +501,17 @@ def mkPDF_report(ID_event):
         canv.setFont('Helvetica', 12)
         canv.setFillColor(HexColor("#ffffff"))
         canv.drawString( 40* mm, 253 * mm, "Intensidad percibida (macrosísmica)" )
-        logo_PerceivedInt =ImageReader("PDF_Images/Intensidad macrosísmica.png")
+        logo_PerceivedInt =ImageReader(os.path.dirname(os.path.abspath(__file__))+"/PDF_Images/Intensidad macrosísmica.png")
         canv.drawImage(logo_PerceivedInt, 10 * mm, 236 * mm, width = 9*mm,preserveAspectRatio=True, mask='auto')
 
         #Tabla, Datos
         with open(folder+"/Data/"+f"inf_intpercibida_{ID_event}.json","r") as json_file: 
             results_IP = json.load(json_file)    
         
-        image_n_report = Image('PDF_Images/Numero_reportes1.png', 1.257*cm, 1*cm)
-        image_centros = Image('PDF_Images/Centros_poblados.png', 1.1061*cm, 1*cm)
-        image_muni = Image('PDF_Images/Municipios.png',1.138*cm, 1*cm)
-        image_depart = Image('PDF_Images/Departamentos.png',1*cm, 1.294*cm)
+        image_n_report = Image(os.path.dirname(os.path.abspath(__file__))+'/PDF_Images/Numero_reportes1.png', 1.257*cm, 1*cm)
+        image_centros = Image(os.path.dirname(os.path.abspath(__file__))+'/PDF_Images/Centros_poblados.png', 1.1061*cm, 1*cm)
+        image_muni = Image(os.path.dirname(os.path.abspath(__file__))+'/PDF_Images/Municipios.png',1.138*cm, 1*cm)
+        image_depart = Image(os.path.dirname(os.path.abspath(__file__))+'/PDF_Images/Departamentos.png',1*cm, 1.294*cm)
 
         n_reportes = results_IP[0]["inf_intpercibida"][0]
         n_centros_poblados = results_IP[0]["inf_intpercibida"][1]
@@ -588,13 +589,13 @@ def mkPDF_report(ID_event):
         canv.drawImage(Img_ip, 5* mm, 119* mm, width = 75*mm,preserveAspectRatio=True, mask='auto') ## Si existe el mapa en el visor de sismos 
         #canv.drawImage(Img_ip, 6* mm, 119* mm, width = 75*mm,preserveAspectRatio=True, mask='auto')  ## Si el mapa el tomado del administrador de intensidades     
         #Img convenciones mapa intensidad percibida
-        Img_c_ip =ImageReader(f"PDF_Images/leyenda_intensidad_persibida.png")
+        Img_c_ip =ImageReader(os.path.dirname(os.path.abspath(__file__))+f"/PDF_Images/leyenda_intensidad_persibida.png")
         canv.drawImage(Img_c_ip, 4* mm, 130* mm, width = 80*mm,preserveAspectRatio=True, mask='auto')
         #Img histograma intensidad percibida
         Img_ihp =ImageReader(f"{folder}/Images/histo_int_percibida_{ID_event}.png")
         canv.drawImage(Img_ihp, 5* mm, 30* mm, width = 75*mm,preserveAspectRatio=True, mask='auto')
         #Leyenda epicentro
-        Img_epicentro_pi =ImageReader("PDF_Images/Epicentro_leyenda.jpeg")
+        Img_epicentro_pi =ImageReader(os.path.dirname(os.path.abspath(__file__))+"/PDF_Images/Epicentro_leyenda.jpeg")
         canv.drawImage(Img_epicentro_pi, 5* mm, 132* mm, width = 20*mm,preserveAspectRatio=True, mask='auto')
     #Fondo
     background(ID_event)
@@ -602,7 +603,7 @@ def mkPDF_report(ID_event):
     
    
     #Imagenes_GUI
-    Dir_img="Events/"+ID_event+"/Images"
+    Dir_img=os.path.dirname(os.path.abspath(__file__))+"/Events/"+ID_event+"/Images"
     IMGs = os.listdir (Dir_img)
     #IMGs_Natures_Effects=[]
 
@@ -715,7 +716,7 @@ def mkPDF_report(ID_event):
         canv.setFont('Helvetica', 12)
         canv.setFillColor(HexColor("#ffffff"))
         canv.drawString( 40* mm, 253 * mm, "Efectos en la naturaleza" )
-        logo_Effects =ImageReader("PDF_Images/Efectos_en_la_naturaleza.png")
+        logo_Effects =ImageReader(os.path.dirname(os.path.abspath(__file__))+"/PDF_Images/Efectos_en_la_naturaleza.png")
         canv.drawImage(logo_Effects, 10 * mm, 187 * mm, width = 12*mm,preserveAspectRatio=True, mask='auto')
 
         Tipo_de_falla = results_MF[0]["tipo_f"]
@@ -760,7 +761,7 @@ def mkPDF_report(ID_event):
         canv.setFont('Helvetica', 12)
         canv.setFillColor(HexColor("#ffffff"))
         canv.drawString( 40* mm, 253 * mm, "Sismos historicos en la region" )
-        logo_history =ImageReader("PDF_Images/Sismicidad_Historica.png")
+        logo_history =ImageReader(os.path.dirname(os.path.abspath(__file__))+"/PDF_Images/Sismicidad_Historica.png")
         canv.drawImage(logo_history, 10 * mm, 164 * mm, width =7*mm,preserveAspectRatio=True, mask='auto')
 
         #Fondo
@@ -768,7 +769,7 @@ def mkPDF_report(ID_event):
         canv.showPage()  
 
 
-    pi.perceived_intensity(ID_event)
+    #pi.perceived_intensity(ID_event)
 
     canv.save()
 
