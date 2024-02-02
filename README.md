@@ -31,7 +31,7 @@ Efectos de la naturaleza
 Sismicidad historica
 La informaciòn hasta Intensidad percibida se tomará directamente de la página sgc/sismos con solo ingresar el ID del evento, el resto es necesario ingresarla manualmente.
 
-# erificador de Estaciones en SIIGEO
+# Verificador de Estaciones en SIIGEO
 
 El sistema de generación de reportes y gráficos de las estaciones tiene como objetivo ayudar a los usuarios a comprender las funcionalidades para la gestión de la información de las estaciones de la red de monitoreo dentro del Sistema de Información de Instrumentación de Geoamenazas (SIIGeo). Además, el aplicativo es capaz de generar gráficos y reportes basados en los filtros seleccionados por el usuario, también puede verificar si existen inconsistencias en los datos que están siendo evaluados, cuenta con tres modulos para consulta y verificación:
 
