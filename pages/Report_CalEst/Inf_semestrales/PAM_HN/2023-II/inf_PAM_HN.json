@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": "La estaci\u00f3n present\u00f3 un comportamiento adecuado durante el segundo semestre de 2023",
+        "disponibilidad": "El promedio de disponibilidad fue del 100%",
+        "gapover": "Se presentan m\u00faltiples gaps y overlaps a lo largo del semestre.",
+        "calidad": "La calidad en general es buena.",
+        "offset": "Los niveles de offset estuvieron dentro de los l\u00edmites esperados. Se presenta una deriva en las componentes vertical y norte.",
+        "ruido": "En t\u00e9rminos del ruido, la estaci\u00f3n muestra el comportamiento dentro de lo esperado para un sensor de aceleraci\u00f3n.",
+        "ultima_v": [
+            "2023-11-12",
+            "Mantenimiento Preventivo",
+            "instalaci\u00f3n de guralp eam sn: 5894 para recepci\u00f3n de trazas del aceler\u00f3grafo 5td en cpamp y su conversi\u00f3n a protocolo seedlink para env\u00edo a bogot\u00e1 mediante el enlace satelital. mantenimiento general incluyendo aseo y conexiones.",
+            "Juan Manuel Solano"
+        ],
+        "recomendaciones": " ",
+        "fecha_creacion": "2024-1-14",
+        "n_img_ruido": 3,
+        "n_img_recom": 1
+    }
+]

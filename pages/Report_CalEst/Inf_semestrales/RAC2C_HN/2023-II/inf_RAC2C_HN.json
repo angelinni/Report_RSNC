@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": "La estaci\u00f3n despues del 28 de septiembre que se realiz\u00f3 el mantenimiento correctivo, se restableci\u00f3 el funcionamiento. ",
+        "disponibilidad": " ",
+        "gapover": " ",
+        "calidad": " ",
+        "offset": " ",
+        "ruido": " ",
+        "ultima_v": [
+            "2023-09-25",
+            "Mantenimiento Correctivo",
+            "estaci\u00f3n sin transmisi\u00f3n de datos hasta la sede central del sgc. se realiza mantenimiento correctivo a los sistemas de energ\u00eda e instrumentaci\u00f3n. la estaci\u00f3n queda operando con normalidad.",
+            "Juan Carlos Lizcano"
+        ],
+        "recomendaciones": " ",
+        "fecha_creacion": "2024-1-31 ",
+        "n_img_ruido": 0,
+        "n_img_recom": 0
+    }
+]

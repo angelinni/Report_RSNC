@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": " ",
+        "disponibilidad": " ",
+        "gapover": " ",
+        "calidad": " ",
+        "offset": " ",
+        "ruido": " ",
+        "ultima_v": [
+            "2023-03-01",
+            "Mantenimiento Correctivo",
+            "se cambia antena yagui para enlace telemetrico entre la estacion y bta., se cambia cable coaxial y terminales, se ajustana parametros de veleocidad.",
+            "Ariel Portocarrero"
+        ],
+        "recomendaciones": "Se recomienda revisar el estado del centrado de masas y nivelaci\u00f3n del equipo, esto por los niveles de offset tan diferentes entre componentes que se han registrado. ",
+        "fecha_creacion": "2024-1-12",
+        "n_img_ruido": 1,
+        "n_img_recom": 0
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": "La estaci\u00f3n se restableci\u00f3 a partir de la \u00faltima visita corrigiendo los m\u00faltiples cortes que se presentaban y que hac\u00edan que la estaci\u00f3n no fuera funcional",
+        "disponibilidad": "La disponibilidad de los datos durante el segundo semestre del 2023 fue del 28%",
+        "gapover": "Desde el restablecimiento de la se\u00f1al con la visita de mantenimiento correctivo, se obseva la presencia de gaps en la se\u00f1al",
+        "calidad": "Los datos registrados muestran buen comportamiento",
+        "offset": "Los niveles de offset se mantuvieron dentro de los rangos esperados.",
+        "ruido": "La se\u00f1al presenta el comportamiento usual de un aceler\u00f3grafo. El alto %ppsd registrado obedece a la intermitencia permanente que ten\u00eda la se\u00f1al previo a la visita de mantenimiento",
+        "ultima_v": [
+            "2023-11-12",
+            "Mantenimiento Preventivo",
+            "se establece comunicaci\u00f3n de radio enlace cpamp-pam para transmitir sobre el enlace satelital pam-bogot\u00e1. se instala en pam el guralp eam sn: 5894 para recibir v\u00eda serial la informaci\u00f3n del radio y convertirla a formato mseed para que est\u00e9 disponible en la ip 10.100.23.151 mediante el protocolo seedlink.",
+            "Juan Manuel Solano"
+        ],
+        "recomendaciones": "Hacer seguimiento a los gaps que se observan en el continuo de la se\u00f1al",
+        "fecha_creacion": "2024-1-14",
+        "n_img_ruido": 3,
+        "n_img_recom": 0
+    }
+]

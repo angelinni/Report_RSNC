@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": "La estaci\u00f3n present\u00f3 fallos en sistema de energ\u00eda presentando un corte en octubre y desconexi\u00f3n permanente desde el 15 de noviembre por problemas de bater\u00edas.",
+        "disponibilidad": "La disponibilidad general de la estaci\u00f3n fue del 30%",
+        "gapover": "En los per\u00edodos que estuvo funcional, present\u00f3 cortes y overlaps.",
+        "calidad": "Durante los per\u00edodos que estuvo funcional la se\u00f1al tuvo un buen comportamiento.\nSe observan cortes peque\u00f1os ocasionales en las se\u00f1ales.",
+        "offset": "El offset tuvo el comportamiento esperado de este tipo de sensor",
+        "ruido": "El an\u00e1lisis de ruido muestra el comportamiento t\u00edpico de un sensor corto per\u00edodo",
+        "ultima_v": [
+            "2023-09-22",
+            "Mantenimiento Correctivo",
+            "mantenimiento correctivo por fallas del sistema de comunicaci\u00f3n satelital.",
+            "Ariel Portocarrero"
+        ],
+        "recomendaciones": "Hacer seguimiento al sistema de energ\u00eda toda vez se restablezca la transmisi\u00f3n de la estaci\u00f3n",
+        "fecha_creacion": "2024-1-14",
+        "n_img_ruido": 1,
+        "n_img_recom": 1
+    }
+]

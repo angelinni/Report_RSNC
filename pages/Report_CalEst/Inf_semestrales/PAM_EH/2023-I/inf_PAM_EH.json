@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": "La estaci\u00f3n h\u00edbrida satelital tuvo un buen comportamiento durante el primer semestre del 2023",
+        "disponibilidad": "La estaci\u00f3n estuvo disponible el 100% del tiempo.",
+        "gapover": "Durante el per\u00edodo revisado, el an\u00e1lisis de los gaps y overlaps evidencia la presencia de overlaps en todos los meses.",
+        "calidad": "La estaci\u00f3n present\u00f3 el comportamiento esperado para este tipo de dispositivo.",
+        "offset": "Los niveles de offset en las tres componentes presentaron un comportamiento dentro de los rangos deseables.",
+        "ruido": "La se\u00f1al presenta m\u00faltiples picos a lo largo del semestre en las tres componentes.\nEl an\u00e1lisis de ruido evidencia que las tres componentes del sensor corto per\u00edodo presentan en general buen comportamiento dentro de las curvas de Peterson, con un %ppsd promedio inferior a 25 para todas las componentes lo que indica un comportamiento esperado de la se\u00f1al.\n",
+        "ultima_v": [
+            "2022-12-05",
+            "Mantenimiento Correctivo",
+            "se inunda feed de antena satelital, se desmonta e impermeabiliza corneta, se limpian paneles solares y antena satelital, revision estado instrumentos.",
+            "Juan Manuel Solano"
+        ],
+        "recomendaciones": " ",
+        "fecha_creacion": "2024-1-13",
+        "n_img_ruido": 3,
+        "n_img_recom": 1
+    }
+]

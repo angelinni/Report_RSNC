@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": "La estaci\u00f3n presentaba problemas de firmware en el equipos instalado por lo que se instal\u00f3 un aceler\u00f3grafo Lunitek con lo que se logr\u00f3 resolver el problema. La estaci\u00f3n ingres\u00f3 el 18 de noviembre con transmisi\u00f3n via celular, present\u00f3 intermitencia entre el 16 y 22 de diciembre y se perdi\u00f3 comunicaci\u00f3n nuevamente el 28.",
+        "disponibilidad": "La estaci\u00f3n estuvo disponible 12% durante el semestre",
+        "gapover": "Present\u00f3 un m\u00e1ximo de gaps en los d\u00edas que estuvo intermitente.",
+        "calidad": "Presenta bajo nivel de ruido y tiene buen registro de eventos",
+        "offset": "En el tiempo que se tuvo registro, el nivel de offset se mantuvo dentro de los par\u00e1metros esperados.",
+        "ruido": "No fue posible hacer an\u00e1lisis de ruido para este per\u00edodo haciendo uso de sqlx.",
+        "ultima_v": [
+            "2023-11-17",
+            "Mantenimiento Correctivo",
+            "se retira aceler\u00f3grafo gaiacode sigma digital s/n: 1036/tu60 por fallas del sistema de sincronizaci\u00f3n del tiempo y se instala aceler\u00f3grafo marca lunitek modelo triton-f con serie no. eb606-2311 y c\u00f3digo bidimensional no. 075408.",
+            "Ariel Portocarrero"
+        ],
+        "recomendaciones": "Hacer seguimiento al sistema de transmisi\u00f3n y de energ\u00eda de la estaci\u00f3n",
+        "fecha_creacion": "2024-1-15",
+        "n_img_ruido": 0,
+        "n_img_recom": 1
+    }
+]

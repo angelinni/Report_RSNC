@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": "La estaci\u00f3n presenta m\u00faltiples cortes en transmisi\u00f3n",
+        "disponibilidad": "El promedio de disponibilidad fue superior al 70%, sin embargo las fallas de transmisi\u00f3n son frecuentes.",
+        "gapover": "Se presentan m\u00faltiples gaps a lo largo del semestre.",
+        "calidad": "La calidad en general no es buena, los m\u00faltiples cortes en la se\u00f1al generan indisponibilidad de los datos.",
+        "offset": "El offset continuamente se ve afectado por los cortes de transmisi\u00f3n",
+        "ruido": "En t\u00e9rminos del ruido, la estaci\u00f3n muestra el comportamiento t\u00edpico de un sensor de aceleraci\u00f3n",
+        "ultima_v": [
+            "2023-11-12",
+            "Mantenimiento Preventivo",
+            "cambio de simcard, revisi\u00f3n de conectividad, nivelaci\u00f3n y orientaci\u00f3n de los sensores y aseo interno y externo.",
+            "Juan Manuel Solano"
+        ],
+        "recomendaciones": "Mantener en observaci\u00f3n el sistema de transmisi\u00f3n y los m\u00faltiples cortes de la se\u00f1al",
+        "fecha_creacion": "2024-1-14",
+        "n_img_ruido": 3,
+        "n_img_recom": 1
+    }
+]

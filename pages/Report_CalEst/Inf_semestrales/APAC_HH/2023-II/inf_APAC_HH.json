@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": " ",
+        "disponibilidad": " ",
+        "gapover": "A presentado algunas perdidas de datos (Gaps), producto de la fluctuaci\u00f3n presentada con el problema de energ\u00eda. El comportamiento ha sido general para los dos sensores; velocidad y aceleraci\u00f3n.\nLos pocos Overlaps identificados durante el semestre se deben a las dificultades presentadas en la sincronizaci\u00f3n del GPS por las fluctuaciones de energ\u00eda que tuvo la estaci\u00f3n.",
+        "calidad": " ",
+        "offset": "El offset presentado por cada una de las tres componentes HH y HN de la estaci\u00f3n (figura ), mientras estuvo en funcionamiento, se encuentra en rangos de valores muy similares y dentro de los l\u00edmites recomendables para garantizar una buena calidad en la se\u00f1al.",
+        "ruido": "los niveles de ruido se encuentran dentro de las curvas l\u00edmites en las tres componentes HH y para el sensor HN",
+        "ultima_v": [
+            "2023-11-28",
+            "Mantenimiento Correctivo",
+            "-\tse realiza el cambio del buc sn: a04177d9x por el sn: a00479d09\r\n-\tse realiza el ponchado de cable lmr400 en el extremo del buc, presentaba falla en tx\r\n-\tse realiza la poda y limpieza de la estaci\u00f3n \r\n-\tse realiza limpieza de paneles solares \r\n",
+            "Sergio Jaramillo"
+        ],
+        "recomendaciones": "Realizar el mantenimiento preventivo para poder resolver el problema de comunicaciones (Modem satelital)",
+        "fecha_creacion": "2024-1-11",
+        "n_img_ruido": 0,
+        "n_img_recom": 0
+    }
+]

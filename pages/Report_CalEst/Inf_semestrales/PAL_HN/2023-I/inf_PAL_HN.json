@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": "La estaci\u00f3n h\u00edbrida tuvo un comportamiento bueno durante el semestre, con dos cortes largos importantes en el mes de junio aparentemente por baja potencia en la conexi\u00f3n satelital.",
+        "disponibilidad": "La estaci\u00f3n present\u00f3 una disponibilidad promedio del 99%",
+        "gapover": "Con el uso de la herramienta snuffler se puede observar que, a pesar de presentar un funcionamiento del 99%, se presentan m\u00faltiples cortes a lo largo del per\u00edodo revisado, con recuperaci\u00f3n de los datos pero la ocurrencia de overlaps en el  semestre. ",
+        "calidad": "Los datos del aceler\u00f3grafo presentan una variaci\u00f3n del offset importante en diferentes momentos a lo largo del primer semestre de 2023. Estas variaciones parecen obedecer a ajustes del offset para centrado de masas.",
+        "offset": "El offset de la se\u00f1al tuvo variaciones importantes en las tres componentes.\nLos promedios se salen de los valores esperados de funcionamiento",
+        "ruido": "La se\u00f1al presenta m\u00faltiples picos a lo largo del semestre en las tres componentes.\nEl an\u00e1lisis de ruido evidencia que las tres componentes presentan en general buen comportamiento dentro de las curvas de Peterson, con un %ppsd de 40% para todas las componentes lo que indica un comportamiento esperado de la se\u00f1al.",
+        "ultima_v": [
+            "2022-09-11",
+            "Mantenimiento Correctivo",
+            "se instalan paneles cod_064143 y 064144, (2) baterias, se instala pararrayos, se limpian paneles y zona alrededor caseta, se retiran radios cod. 063690, 063691 y se instalan cod. 025198 y 046596, se limpia antena y se deja gps fuera del bunker. pendiente: llevar gabinete para instalar y cambiar alambre de puas alrededor bunker.",
+            "Oscar Suarez"
+        ],
+        "recomendaciones": "Se requiere monitorear los cortes que se presentan en la transmisi\u00f3n y el comportamiento general del sensor. ",
+        "fecha_creacion": "2024-1-13",
+        "n_img_ruido": 3,
+        "n_img_recom": 1
+    }
+]

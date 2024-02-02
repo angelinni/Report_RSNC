@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": "La estaci\u00f3n funcion\u00f3 optimamente hasta el 7 de octubre que present\u00f3 fallas en el sistema de energ\u00eda y se perdi\u00f3 comunicaci\u00f3n con la estaci\u00f3n.",
+        "disponibilidad": "El promedio de funcionamiento de la estaci\u00f3n durante el segundo semestre fue del 53%",
+        "gapover": "Durante el per\u00edodo que estuvo funcional se present\u00f3 algunos cortes con p\u00e9rdidas o gaps en los datos y al recuperar se observa la presencia de overlaps",
+        "calidad": "Los datos presentan buen comportamiento en general, con un pico importante en el offset en el mes de julio y finalizando el mes de septiembre aparentemente asociado a un corte en la se\u00f1al que gener\u00f3 un overlap.\nSe presentan m\u00faltiples picos de menor energia y baja frecuencia que afectan el registro de eventos.",
+        "offset": "Los niveles de offset de la se\u00f1al presentan un comportamiento bueno en general en las tres componentes. ",
+        "ruido": "La se\u00f1al presenta m\u00faltiples picos a lo largo del semestre, con un promedio de 28.\nEl an\u00e1lisis de ruido evidencia que las tres componentes presentan en general buen comportamiento dentro de las curvas de Peterson hasta la p\u00e9rdida total de la se\u00f1al. En las bajas frecuencias muestra una tendencia hacia la curva superior, sin superar este valor un alto porcentaje.\nEl %ppsd es inferior a 4.5 para todas las componentes lo que indica un comportamiento no ideal de la se\u00f1al, el cual puede estar asociado a los picos de baja frecuencia que se presentan.\n",
+        "ultima_v": [
+            "2022-09-11",
+            "Mantenimiento Correctivo",
+            "se instalan paneles cod_064143 y 064144, (2) baterias, se instala pararrayos, se limpian paneles y zona alrededor caseta, se retiran radios cod. 063690, 063691 y se instalan cod. 025198 y 046596, se limpia antena y se deja gps fuera del bunker. pendiente: llevar gabinete para instalar y cambiar alambre de puas alrededor bunker.",
+            "Oscar Suarez"
+        ],
+        "recomendaciones": "Se debe revisar una alternativa para reducir los picos de baja frecuencia que se presentan en el sensor de velocidad para el momento de la siguiente visita para el restablecimiento de la se\u00f1al.",
+        "fecha_creacion": "2024-1-14",
+        "n_img_ruido": 3,
+        "n_img_recom": 2
+    }
+]

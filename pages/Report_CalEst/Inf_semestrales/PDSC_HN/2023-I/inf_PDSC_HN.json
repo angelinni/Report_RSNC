@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": "Desde el restablecimiento de la estaci\u00f3n en abril, el aceler\u00f3grafo ha presentadoun funcionamiento general estable.",
+        "disponibilidad": "La disponibilidad de la se\u00f1al durante el semestre fue del 42.6%",
+        "gapover": "Se registraron algunos gaps desde el restablecimiento de la estaci\u00f3n en el mes de abril",
+        "calidad": "En t\u00e9rminos de calidad, la estaci\u00f3n ha presentado un buen comportamiento y registro de eventos.",
+        "offset": "El nivel de offset de las tres componentes muestra una variaci\u00f3n dentro de los l\u00edmites considerados como aceptables.",
+        "ruido": "Del an\u00e1lisis de ruido y espectral de la se\u00f1al se observa que el comportamiento obedece al esperado por un sensor de este tipo.",
+        "ultima_v": [
+            "2023-04-13",
+            "Mantenimiento Correctivo",
+            "se cambia instrumentacion por bunker inundado: digitl.guralp-das_06708/6866 por el minimus_min_d65c, acelerom. forte_tf022 por el guralp_t5hw6. se realizan adecuaciones para evitar el ingreso de agua al bunker, se cava zanja paara desague y se lava panel solar.",
+            "Juan Carlos Lizcano"
+        ],
+        "recomendaciones": " ",
+        "fecha_creacion": "2024-1-13",
+        "n_img_ruido": 3,
+        "n_img_recom": 1
+    }
+]

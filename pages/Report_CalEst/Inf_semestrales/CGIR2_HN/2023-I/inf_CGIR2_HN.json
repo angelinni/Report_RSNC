@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": " ",
+        "disponibilidad": " ",
+        "gapover": " ",
+        "calidad": " ",
+        "offset": " ",
+        "ruido": " ",
+        "ultima_v": [
+            "2023-11-17",
+            "Mantenimiento Correctivo",
+            "se retira aceler\u00f3grafo gaiacode sigma digital s/n: 1036/tu60 por fallas del sistema de sincronizaci\u00f3n del tiempo y se instala aceler\u00f3grafo marca lunitek modelo triton-f con serie no. eb606-2311 y c\u00f3digo bidimensional no. 075408.",
+            "Ariel Portocarrero"
+        ],
+        "recomendaciones": " ",
+        "fecha_creacion": " ",
+        "n_img_ruido": 0,
+        "n_img_recom": 0
+    }
+]

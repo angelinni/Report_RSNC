@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": "Estaci\u00f3n h\u00edbrida de 4 canales. Adicional al sensor Geospace vertical, se encuentra instalado un aceler\u00f3metro Episensor.\nLa estaci\u00f3n present\u00f3 intermitencia durante  el semestre con un incremento importante a partir del mes de abril.\n",
+        "disponibilidad": "En promedio la estaci\u00f3n present\u00f3 disponibilidad del 93.2%",
+        "gapover": "Se presentaron gaps a lo largo del semestre con un incremento importante a partir del mes de abril y una m\u00e1xima de gaps en el mes de junio.",
+        "calidad": "El comportamiento de la se\u00f1al se encuentra dentro de los par\u00e1metros esperados para el comportamiento del sensor vertical de velocidad.",
+        "offset": "El offset observado en promedio en la componente vertical durante el per\u00edodo que estuvo activa la estaci\u00f3n se encuentra afectado por los m\u00faltiples cortes, aunque la variaci\u00f3n es baja.",
+        "ruido": "Para el per\u00edodo revisado y, teniendo en cuenta la intermitencia frecuente que se present\u00f3, se observa que el sensor vertical muestra un comportamiento fuera de la media asociado a los cortes presentados, con un valor promedio en el semestre de 39.8%.",
+        "ultima_v": [
+            "2023-11-12",
+            "Mantenimiento Preventivo",
+            "cambio de simcard, revisi\u00f3n de conectividad, nivelaci\u00f3n y orientaci\u00f3n de los sensores y aseo interno y externo.",
+            "Juan Manuel Solano"
+        ],
+        "recomendaciones": "Se requiere revisar el sistema de transmisi\u00f3n para evitar los m\u00faltiples cortes que se presentan en el segundo trimestre.",
+        "fecha_creacion": "2024-1-12",
+        "n_img_ruido": 1,
+        "n_img_recom": 1
+    }
+]

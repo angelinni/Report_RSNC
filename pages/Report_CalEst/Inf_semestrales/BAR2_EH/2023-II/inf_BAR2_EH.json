@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": " ",
+        "disponibilidad": " ",
+        "gapover": " ",
+        "calidad": " ",
+        "offset": " ",
+        "ruido": " ",
+        "ultima_v": [
+            "2023-09-14",
+            "Mantenimiento Correctivo",
+            "se retira sism\u00f3metro ref tek colt serie 193032 y c\u00f3digo bidimensional 057008 por otro sism\u00f3metro de la misma marca y modelo con serie 193037 y c\u00f3digo bidimensional 057011. \r\nse realizan pruebas al sism\u00f3metro nuevo instalado. \r\nse instalan 4 paneles solares de 240w y regulador solar morningstar ts-mppt-60 con serie no. 19380457 \r\nse realizan labores de desyerbe y limpieza en los alrededores de la caseta, la antena satelital y el bunker\r\n",
+            "Johnnatan Fernandez"
+        ],
+        "recomendaciones": " ",
+        "fecha_creacion": "2024-1-5 ",
+        "n_img_ruido": 0,
+        "n_img_recom": 0
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": " ",
+        "disponibilidad": " ",
+        "gapover": " ",
+        "calidad": " ",
+        "offset": " ",
+        "ruido": " ",
+        "ultima_v": [
+            "2023-11-14",
+            "Mantenimiento Correctivo",
+            "debido a retiro de la estaci\u00f3n satelital ptb se cambi\u00f3 de modo de transmisi\u00f3n de datos de telemetr\u00eda a estaci\u00f3n satelital ptb a modo de transmisi\u00f3n por red m\u00f3vil celular. se retira antena yagi y radio freewave con serie 842-3012 y c\u00f3digo bidimensional 042090. se instala modem celular marca teltonika modelo rut240 con serie no. 1126299326.",
+            "Diego Paez,Juan Carlos Lizcano"
+        ],
+        "recomendaciones": " ",
+        "fecha_creacion": "2024-1-16 ",
+        "n_img_ruido": 0,
+        "n_img_recom": 0
+    }
+]

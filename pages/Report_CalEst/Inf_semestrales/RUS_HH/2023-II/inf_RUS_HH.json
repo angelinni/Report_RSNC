@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": " ",
+        "disponibilidad": " ",
+        "gapover": " ",
+        "calidad": " ",
+        "offset": " ",
+        "ruido": " ",
+        "ultima_v": [
+            "2022-10-04",
+            "Mantenimiento Preventivo",
+            "se  hizo limpieza de paneles y antena, medicion de voltajes y corrientes del sistema de energia.",
+            "Sergio Jaramillo"
+        ],
+        "recomendaciones": "Al momento de realizar el presente informe la estaci\u00f3n presenta un \u00f3ptimo funcionamiento, por lo que no se tienen recomendaciones.   ",
+        "fecha_creacion": "2024-1-11",
+        "n_img_ruido": 1,
+        "n_img_recom": 0
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": " ",
+        "disponibilidad": " ",
+        "gapover": " ",
+        "calidad": " ",
+        "offset": " ",
+        "ruido": " ",
+        "ultima_v": [
+            "2023-11-08",
+            "Mantenimiento Correctivo",
+            "la estaci\u00f3n no estaba transmitiendo datos hasta la sede central del sgc debido falla del sistema de transmisi\u00f3n satelital. se cambi\u00f3 de modo de transmisi\u00f3n de datos de satelital a celular. se retiran modem satelital comtech modelo cdm570l con serie 122583724 con placa ingeominas 052113, lnb norsat modelo 3020xn con serie no. n20204-42193 y c\u00f3digo bidimensional 050746 y buc modelo njt5669 con serie no. a04174d9x y c\u00f3digo bidimensional 062751. ",
+            "Juan Carlos Lizcano"
+        ],
+        "recomendaciones": " ",
+        "fecha_creacion": "2024-1-5 ",
+        "n_img_ruido": 0,
+        "n_img_recom": 0
+    }
+]

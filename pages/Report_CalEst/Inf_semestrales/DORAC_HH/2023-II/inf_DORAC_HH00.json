@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": " ",
+        "disponibilidad": " ",
+        "gapover": " ",
+        "calidad": " ",
+        "offset": " ",
+        "ruido": " ",
+        "ultima_v": [
+            "2023-07-13",
+            "Mantenimiento Correctivo",
+            "se desinstalan toda la instrumentaci\u00f3n que estaba previamente instalada, se instala digitalizador q8 sn: 510630, sism\u00f3metro reftek sn: g14192vs  y aceler\u00f3metro episensor sn: 6342.",
+            "Andres Felipe Gomez"
+        ],
+        "recomendaciones": " ",
+        "fecha_creacion": "2024-2-1 ",
+        "n_img_ruido": 0,
+        "n_img_recom": 0
+    }
+]

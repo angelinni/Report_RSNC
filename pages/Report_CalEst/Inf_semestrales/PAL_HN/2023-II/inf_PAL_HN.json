@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": "La estaci\u00f3n funcion\u00f3 optimamente hasta el 7 de octubre que present\u00f3 fallas en el sistema de energ\u00eda y se perdi\u00f3 comunicaci\u00f3n con la estaci\u00f3n.",
+        "disponibilidad": "El promedio de funcionamiento de la estaci\u00f3n durante el segundo semestre fue del 53%",
+        "gapover": "Durante el per\u00edodo que estuvo funcional se present\u00f3 algunos cortes con p\u00e9rdidas o gaps en los datos y se observa la presencia de overlaps",
+        "calidad": "Los datos presentan m\u00faltiples cortes pero un buen registro de eventos.",
+        "offset": "Los niveles de offset de la se\u00f1al presentan variaciones del offset importantes en diferentes momentos del per\u00edodo valorado. ",
+        "ruido": "El an\u00e1lisis de ruido evidencia que las tres componentes presentan un comportamiento normal de un aceler\u00f3grafo hasta la p\u00e9rdida total de la se\u00f1al. \nEl %ppsd es superior a 40 para todas las componentes lo que indica un comportamiento no ideal de la se\u00f1al, el cual puede estar asociado a los picos que se presentan por cortes y gaps.\n",
+        "ultima_v": [
+            "2022-09-11",
+            "Mantenimiento Correctivo",
+            "se instalan paneles cod_064143 y 064144, (2) baterias, se instala pararrayos, se limpian paneles y zona alrededor caseta, se retiran radios cod. 063690, 063691 y se instalan cod. 025198 y 046596, se limpia antena y se deja gps fuera del bunker. pendiente: llevar gabinete para instalar y cambiar alambre de puas alrededor bunker.",
+            "Oscar Suarez"
+        ],
+        "recomendaciones": "Se debe revisar el sistema de transmisi\u00f3n para evitar los cortes en la se\u00f1al del aceler\u00f3grafo.",
+        "fecha_creacion": "2024-1-14",
+        "n_img_ruido": 3,
+        "n_img_recom": 2
+    }
+]

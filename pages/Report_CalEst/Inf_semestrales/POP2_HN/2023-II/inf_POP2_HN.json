@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": " ",
+        "disponibilidad": " ",
+        "gapover": " ",
+        "calidad": " ",
+        "offset": " ",
+        "ruido": " ",
+        "ultima_v": [
+            "2023-04-26",
+            "Mantenimiento Correctivo",
+            "se encontro modem bloqueado se cambio por otro pero no funciono y se deja el mismo el cual opero normal, se modifican conexiones electricas y se cambia regulador, se cambia tarjeta del rectificador eaton, se lavan paneles y se poda y limpia zona alrredor caseta y antena, se refuerza con cinta el acetato del feed, se retira conversor con cod_024176.",
+            "Juan Carlos Lizcano"
+        ],
+        "recomendaciones": " ",
+        "fecha_creacion": "2024-1-18 ",
+        "n_img_ruido": 0,
+        "n_img_recom": 0
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": "La estaci\u00f3n funcion\u00f3 optimamente hasta el 31 de octubre que present\u00f3 fallas en el sistema de comunicaci\u00f3n y se sali\u00f3 temporalmente. Posteriormente, el 18 de diceimbre, se perdi\u00f3 la se\u00f1al de los sensores 00 y 10 por problemas de GPS del digitalizador al que se encuentran conectados.",
+        "disponibilidad": "El promedio de funcionamiento de la estaci\u00f3n durante el segundo semestre fue del 92%",
+        "gapover": "Durante el per\u00edodo que estuvo funcional se present\u00f3 algunos cortes con p\u00e9rdidas o gaps, mostrando un m\u00e1ximo de gaps el 31 de octubre que present\u00f3 corte en los datos. Se observa la presencia de overlaps",
+        "calidad": "El sensor presenta buen registro de eventos en general, sin embargo hay presencia de picos de baja frecuencia a lo largo del per\u00edodo analizado, principalmente en las componentes horizontales del sensor.",
+        "offset": "Los niveles de offset de la se\u00f1al presentan variaciones del offset importantes en diferentes momentos del per\u00edodo valorado. ",
+        "ruido": "Se observa un importante aumento en los picos de la se\u00f1al con respecto al semestre anterior. El %ppsd no es muy alto, pero puede obedecer a este comportamiento de los picos de baja frecuencia en el resigstro del sensor.",
+        "ultima_v": [
+            "2023-02-23",
+            "Mantenimiento Correctivo",
+            "se realiza mmtto al sistema de energia solar, se cambia banco de baterias por deterioro,  se lavan paneles solares y se podan ramas que le dan sombra.",
+            "Juan Carlos Lizcano"
+        ],
+        "recomendaciones": "Una vez se restablezca la se\u00f1al, hacer seguimiento a los picos que se presentan.",
+        "fecha_creacion": "2024-1-14",
+        "n_img_ruido": 3,
+        "n_img_recom": 1
+    }
+]

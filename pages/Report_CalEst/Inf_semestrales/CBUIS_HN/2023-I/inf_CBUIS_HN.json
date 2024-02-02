@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": "La estaci\u00f3n acelerogr\u00e1fica estuvo por fuera la mayor parte del semestre por fallas en el sistema de comunicaci\u00f3n implementado por la CDMB a trav\u00e9s de VPN.",
+        "disponibilidad": "La disponibilidad de la estaci\u00f3n fue del 7.5% en todo el semestre, entre el 15 de marzo y el 9 de abril.",
+        "gapover": "Durante el per\u00edodo que se recibieron datos de la estaci\u00f3n, la se\u00f1al present\u00f3 cortes y overlaps en las tres componentes.",
+        "calidad": "A partir de los pocos datos registrados y adquiridos no es posible realizar una valoraci\u00f3n de la calidad de la se\u00f1al.",
+        "offset": "A partir de los pocos datos registrados y adquiridos no es posible realizar una valoraci\u00f3n del offset de la se\u00f1al.",
+        "ruido": "A partir de los pocos datos registrados y adquiridos no es posible realizar una valoraci\u00f3n de la se\u00f1al.",
+        "ultima_v": [
+            "2023-09-19",
+            "Mantenimiento Correctivo",
+            "se instala gabinete met\u00e1lico tipo rack para disposici\u00f3n y protecci\u00f3n de equipos, se organizan las conexiones el\u00e9ctricas y se instala coraza conduflex, se retira canasto donde estaba la bater\u00eda y digitalizador. se retira bater\u00eda de 12v 100ah y se instala bater\u00eda de 12v 40ah.",
+            "Johnnatan Fernandez"
+        ],
+        "recomendaciones": "Dentro del marco del convenio con la CDMB se tiene establecido realizar la implementaci\u00f3n del sistema de transmisi\u00f3n actualmente empleado en el SGC para las estaciones. Se recomienda hacer seguimiento al proceso de instalaci\u00f3n de modem de transmisi\u00f3n celular en la estaci\u00f3n.",
+        "fecha_creacion": "2024-1-13",
+        "n_img_ruido": 0,
+        "n_img_recom": 1
+    }
+]

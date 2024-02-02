@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": "Durante el segundo semestre de 2023, la estaci\u00f3n tuvo un funcionamiento promedio del 99.1%, debido a que por unos dias en el mes de julio, la estaci\u00f3n estuvo por fuera por falta de recarga del plan de celular.",
+        "disponibilidad": " ",
+        "gapover": " ",
+        "calidad": " ",
+        "offset": " ",
+        "ruido": "A pesar de que es una estaci\u00f3n muy ruidosa por su cercan\u00eda a la autopista del caf\u00e9, tiene registro de gran sismicidad de la zona.",
+        "ultima_v": [
+            "2023-02-23",
+            "Mantenimiento Preventivo",
+            "se verifica el correcto funcionamiento de la instrumentacion y telemetria, se limpia estacion. pendiente: instalar letrero del sgc.",
+            "Marisol Gomez Cano,Oscar Suarez"
+        ],
+        "recomendaciones": " ",
+        "fecha_creacion": "2024-1-30 ",
+        "n_img_ruido": 0,
+        "n_img_recom": 0
+    }
+]

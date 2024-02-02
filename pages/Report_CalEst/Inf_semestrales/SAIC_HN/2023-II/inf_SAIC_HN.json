@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": " ",
+        "disponibilidad": " ",
+        "gapover": " ",
+        "calidad": " ",
+        "offset": " ",
+        "ruido": " ",
+        "ultima_v": [
+            "2023-11-07",
+            "Mantenimiento Correctivo",
+            "la estaci\u00f3n no estaba transmitiendo datos hasta la sede central del sgc debido falla del sistema de transmisi\u00f3n satelital. se cambi\u00f3 de modo de transmisi\u00f3n de datos de satelital a celular. se realiza instalaci\u00f3n de un modem celular teltonika modelo rut240 con serie 6000781243. se retiran modem satelital comtech modelo cdm570l con serie 142649450 y lnb japan radio a01909b18 con c\u00f3digo bidimensional 010726. ",
+            "Juan Carlos Lizcano"
+        ],
+        "recomendaciones": " ",
+        "fecha_creacion": "2024-1-5 ",
+        "n_img_ruido": 0,
+        "n_img_recom": 0
+    }
+]

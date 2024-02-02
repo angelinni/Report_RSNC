@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": "La estaci\u00f3n funcion\u00f3 optimamente hasta el 31 de octubre que present\u00f3 fallas en el sistema de comunicaci\u00f3n y se sali\u00f3 temporalmente. Posteriormente, el 18 de diceimbre, se perdi\u00f3 la se\u00f1al de los sensores 00 y 10 por problemas de GPS del digitalizador al que se encuentran conectados.",
+        "disponibilidad": "El promedio de funcionamiento de la estaci\u00f3n durante el segundo semestre fue del 92%",
+        "gapover": "Durante el per\u00edodo que estuvo funcional se present\u00f3 algunos cortes con p\u00e9rdidas o gaps, mostrando un m\u00e1ximo de gaps el 31 de octubre que present\u00f3 corte en los datos. Se observa la presencia de overlaps",
+        "calidad": "El sensor presenta buen registro de eventos en general, sin embargo hay presencia de picos de baja frecuencia a lo largo del per\u00edodo analizado, principalmente en las componentes horizontales del sensor.",
+        "offset": "Los niveles de offset de la se\u00f1al no presentan variaciones importantes, est\u00e1n dentro de lo esperado para este tipo de sensor. ",
+        "ruido": "Se observa un comportamiento acorde al tipo de sensor.",
+        "ultima_v": [
+            "2023-02-23",
+            "Mantenimiento Correctivo",
+            "se realiza mmtto al sistema de energia solar, se cambia banco de baterias por deterioro,  se lavan paneles solares y se podan ramas que le dan sombra.",
+            "Juan Carlos Lizcano"
+        ],
+        "recomendaciones": "Hacer seguimiento al sistema de energ\u00eda y transmisi\u00f3n.",
+        "fecha_creacion": "2024-1-14",
+        "n_img_ruido": 3,
+        "n_img_recom": 1
+    }
+]

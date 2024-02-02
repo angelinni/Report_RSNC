@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": "En general, la estaci\u00f3n ha tenido un buen funcionamiento, las veces que ha estado por fuera ha sido debido a falta en la recarga del plan de internet del operador celular por donde se transmiten los datos",
+        "disponibilidad": " ",
+        "gapover": "La estaci\u00f3n ha presentado un promedio un poco alto de Gaps debido a la poca cobertura del operador de la red por donde se transmite los datos de la estaci\u00f3n.",
+        "calidad": " ",
+        "offset": " ",
+        "ruido": " ",
+        "ultima_v": [
+            "2023-11-12",
+            "Mantenimiento Preventivo",
+            "nivelaci\u00f3n del aceler\u00f3grafo fortimus 7a59, cambio de simcard y limpieza interior y exterior. ",
+            "Juan Manuel Solano"
+        ],
+        "recomendaciones": " ",
+        "fecha_creacion": "2024-1-31 ",
+        "n_img_ruido": 0,
+        "n_img_recom": 0
+    }
+]

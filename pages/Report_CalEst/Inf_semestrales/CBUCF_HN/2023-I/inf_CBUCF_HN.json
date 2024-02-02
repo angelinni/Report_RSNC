@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": " ",
+        "disponibilidad": " ",
+        "gapover": "La estaci\u00f3n presenta problemas de transmisi\u00f3n. ",
+        "calidad": " ",
+        "offset": " ",
+        "ruido": "La estaci\u00f3n present\u00f3 cortes en el per\u00edodo de disponibilidad debido a fallos en la transmisi\u00f3n de datos. En t\u00e9rminos de an\u00e1lisis de ruido, present\u00f3 el comportamiento usual de un aceler\u00f3grafo.",
+        "ultima_v": [
+            "2021-04-29",
+            "Mantenimiento Correctivo",
+            "se retira etna_120 y se instala gaia_1035/tu41 (la estacion pasa de por descarga a tiempo real), se actualizo panel, bateria y regulador para aumentar la capacidad de la estacion. se instala letrero del sgc.",
+            "Diego Iba\u00f1ez,Luisa Castillo"
+        ],
+        "recomendaciones": "Esta estaci\u00f3n se monitorea y visita conjuntamente con el grupo t\u00e9cnico de la Corporaci\u00f3n Aut\u00f3noma Regional para la Defensa de la Meseta de Bucaramanga - CDMB bajo el convenio 014-2020 entre SGC-CDMB. La transmisi\u00f3n de los datos en tiempo real ha estado a cargo de la CDMB, sin embargo se han presentado inconvenientes con la transmisi\u00f3n de los datos al SGC. El SGC ha trabajado con la CDMB para resolver los fallos presentados y se encuentra implementando una soluci\u00f3n al tema particular de esta y las dem\u00e1s estaciones parte del convenio establecido entre las partes.",
+        "fecha_creacion": "2023-12-14",
+        "n_img_ruido": 3,
+        "n_img_recom": 1
+    }
+]

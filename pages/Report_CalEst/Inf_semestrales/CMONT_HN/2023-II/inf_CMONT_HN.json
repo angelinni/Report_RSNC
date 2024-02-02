@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": "La estaci\u00f3n ingres\u00f3 a tiempo real el 11 de junio de 2023, desde esta fecha la estaci\u00f3n a presentado tres grandes gaps (un par de d\u00edas cada uno) por fallas del enlace telem\u00e9trico de radio frecuencia o el sistema de comunicaciones presenta anomal\u00edas. Sin embargo, actualmente la estaci\u00f3n esta funcionando \u00f3ptimamente. ",
+        "disponibilidad": " ",
+        "gapover": " ",
+        "calidad": " ",
+        "offset": " ",
+        "ruido": " ",
+        "ultima_v": [
+            "2023-06-09",
+            "Mantenimiento Correctivo",
+            "se retira acelerografo etna_134 y se instala etna2_102581, se instala radio ubiquiti para enlace de telemetria y mikrotik, ademas bateria  de 12v 40a. pendiente: instalar gabinete para ubicacion de equipos",
+            "Johnnatan Fernandez"
+        ],
+        "recomendaciones": " ",
+        "fecha_creacion": "2024-1-12 ",
+        "n_img_ruido": 0,
+        "n_img_recom": 0
+    }
+]

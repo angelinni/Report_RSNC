@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": "La estaci\u00f3n funcion\u00f3 bien durante el semestre",
+        "disponibilidad": "Tuvo una disponibilidad del 100%",
+        "gapover": "Se observa la presencia de gaps en el semestre",
+        "calidad": "La se\u00f1al tiene buen registro de eventos aunque presenta picos de alta frecuencia y baja energ\u00eda que no enmascaran los eventos. Es un comportamiento t\u00edpico de un Fortis",
+        "offset": "El offset presenta un comportamiento dentro de los rangos esperados.",
+        "ruido": "No fue posible hacer an\u00e1lisis con el sqlx.\nEl aplicativo permite observar que el promedio de ppsd en las tres componentes no supera el 36% fuera de las curvas de Peterson, lo cual obedece a un comportamiento usual de un sensor de aceleraci\u00f3n",
+        "ultima_v": [
+            "2023-04-13",
+            "Mantenimiento Correctivo",
+            "se cambia instrumentacion por bunker inundado: digitl.guralp-das_06708/6866 por el minimus_min_d65c, acelerom. forte_tf022 por el guralp_t5hw6. se realizan adecuaciones para evitar el ingreso de agua al bunker, se cava zanja paara desague y se lava panel solar.",
+            "Juan Carlos Lizcano"
+        ],
+        "recomendaciones": "Actualizar los equipos en el SIIGEO",
+        "fecha_creacion": "2024-1-15",
+        "n_img_ruido": 0,
+        "n_img_recom": 1
+    }
+]

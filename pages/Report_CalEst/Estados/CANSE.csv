@@ -1,0 +1,2 @@
+fecha,act_sis,act_elec,e_disp,p_sist,f_prob
+23/1/2024,"Verificar fuentes de ruido externas que puedan estar afectando la señal en altas frecuencias. La señal presenta muchos cortes en el continuo, se debe evaluar si el operador celular utilizado es el mejor en la zona o si se puede probar con otra compañía telefónica. Se debe verificar el buffer del equipo, ya que al parecer no recupera información con pequeñas perdidas de señal del operador celular, de no poderse mejorar, sería recomendable cambiar el equipo en este punto.",,Intermitente,Comunicaciones,2023-11-29

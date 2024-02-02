@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": " ",
+        "disponibilidad": " ",
+        "gapover": " ",
+        "calidad": " ",
+        "offset": " ",
+        "ruido": " ",
+        "ultima_v": [
+            "2023-02-24",
+            "Mantenimiento Correctivo",
+            "se cambio banco de baterias, limpieza de paneles y antena satelital, se fumigo lote, modem desconfigurado debido a frecuentes reinicios por baterias antiguas. se configuro modem y se restablecio enlace satelital.",
+            "Sergio Jaramillo"
+        ],
+        "recomendaciones": " ",
+        "fecha_creacion": "2024-1-12 ",
+        "n_img_ruido": 1,
+        "n_img_recom": 0
+    }
+]

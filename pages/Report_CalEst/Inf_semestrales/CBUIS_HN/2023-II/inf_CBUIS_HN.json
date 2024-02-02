@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": "Se restableci\u00f3 comunicaci\u00f3n con la estaci\u00f3n con apoyo del personal de la CDMB bajo el marco del convenio 014-2020. Se reconfigur\u00f3 el m\u00f3dem celular usando la actual definida en el SGC con el apoyo del personal en Bogot\u00e1 y Bucaramanga.\nLos datos llegan directamente a la sede centrarl del SGC en Bogot\u00e1 y se comparten con la CDMB",
+        "disponibilidad": "Con la actualizaci\u00f3n implementada, la estaci\u00f3n tuvo una disponibilidad superior al 72% pero se volvi\u00f3 a perder comunicaci\u00f3n finalizando diciembre",
+        "gapover": "La se\u00f1al recibida presenta varios gaps y overlaps.",
+        "calidad": "En t\u00e9rminos de calidad la se\u00f1al presenta buen registro de eventos.",
+        "offset": "El offset se comporta dentro de lo esperado, sin embargo, se debe revisar el centrado de masas en la siguiente visita",
+        "ruido": "El an\u00e1lisis de ruido de la estaci\u00f3n evidencia una tendencia hacia la curva superior de Peterson en un amplio rango de frecuencias, aproximadamente desde los 2Hz en adelante.   ",
+        "ultima_v": [
+            "2023-09-19",
+            "Mantenimiento Correctivo",
+            "se instala gabinete met\u00e1lico tipo rack para disposici\u00f3n y protecci\u00f3n de equipos, se organizan las conexiones el\u00e9ctricas y se instala coraza conduflex, se retira canasto donde estaba la bater\u00eda y digitalizador. se retira bater\u00eda de 12v 100ah y se instala bater\u00eda de 12v 40ah.",
+            "Johnnatan Fernandez"
+        ],
+        "recomendaciones": "Hacer seguimiento al sistema de transmisi\u00f3n y el offset de las componentes.",
+        "fecha_creacion": "2024-1-15",
+        "n_img_ruido": 3,
+        "n_img_recom": 1
+    }
+]

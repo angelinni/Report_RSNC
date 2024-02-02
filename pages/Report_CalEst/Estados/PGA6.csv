@@ -1,0 +1,6 @@
+fecha,act_sis,act_elec,e_disp,p_sist,f_prob
+16/1/2024,"Sale estación PGA6 sensor .00 a las 12:44 UTC del 11/01/2024.
+Andrés Felipe Gómez informado.",,Por fuera,Otro,2024-01-11
+2024/1/18,"Se recibe el reporte por parte de Sergio Jaramillo, en el que se indica que la estación no esta adquiriendo. Se procede a revisar la configuración del sistema de adquisición y se evidencia que no se tiene ping con la estación. Al revisar la tabla de enrutamiento se evidencia que no esta enrutada la red de la estación y se procede a agregar la red, mediante consola, en el servidor de adquisición 10.100.100.222. Una vez realizada esta acción, la estación inicia la adquisición
+Att: Carlos Araujo - Sistemas",,Bien,ninguno,2024-01-18
+2024/1/30,Se realiza un ajuste en la configuración de adquisición (enrutamiento) de la estación PGA6 para garantizar su adquisición. 18 de enero. (Carlos Araujo) ,,Bien,Instrumentación,2024-01-18

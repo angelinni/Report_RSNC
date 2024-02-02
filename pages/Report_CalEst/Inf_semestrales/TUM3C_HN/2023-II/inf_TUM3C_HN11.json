@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": " ",
+        "disponibilidad": " ",
+        "gapover": " ",
+        "calidad": " ",
+        "offset": " ",
+        "ruido": " ",
+        "ultima_v": [
+            "2023-05-02",
+            "Mantenimiento Correctivo",
+            "se desyerba zona, se limpia caseta y se cambian 2 baterias 12vdc/40h. pendiente: cambio de la cola coaxial entre radio freewave y la proteccion rf entrena la antena y el radio.",
+            "Ariel Portocarrero"
+        ],
+        "recomendaciones": " ",
+        "fecha_creacion": "2024-1-26 ",
+        "n_img_ruido": 0,
+        "n_img_recom": 0
+    }
+]

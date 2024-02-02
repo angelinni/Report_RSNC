@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": " ",
+        "disponibilidad": " ",
+        "gapover": " ",
+        "calidad": " ",
+        "offset": " ",
+        "ruido": " ",
+        "ultima_v": [
+            "2023-11-08",
+            "Mantenimiento Correctivo",
+            "se instala modem celular, se cambian todas las ips de los equipos de la estaci\u00f3n, incluyendo las estaciones ach1 y ach6. se desinstala modem satelital con cb: 051994.\r\nse poda estaci\u00f3n, incluyendo 3 arboles que obstaculizan la se\u00f1al proveniente de ach1 y ach6.se limpian paneles solares.\r\nse instala bisagras a la puerta.\r\n",
+            "Andres Felipe Gomez"
+        ],
+        "recomendaciones": " ",
+        "fecha_creacion": "2024-1-5 ",
+        "n_img_ruido": 0,
+        "n_img_recom": 0
+    }
+]

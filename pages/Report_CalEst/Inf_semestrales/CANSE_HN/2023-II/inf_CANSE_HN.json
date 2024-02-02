@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": " ",
+        "disponibilidad": " ",
+        "gapover": " ",
+        "calidad": " ",
+        "offset": " ",
+        "ruido": " ",
+        "ultima_v": [
+            "2023-08-26",
+            "Mantenimiento Correctivo",
+            "se realiza la instalaci\u00f3n de una antena celular en el exterior de la caseta con el fin de aumentar la disponibilidad de los datos y evitar el efecto de jaula de faraday que estaba provocando la caseta de la estaci\u00f3n. ",
+            "Oscar Suarez"
+        ],
+        "recomendaciones": " ",
+        "fecha_creacion": "2024-1-10 ",
+        "n_img_ruido": 0,
+        "n_img_recom": 0
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": " ",
+        "disponibilidad": " ",
+        "gapover": " ",
+        "calidad": " ",
+        "offset": " ",
+        "ruido": " ",
+        "ultima_v": [
+            "2023-10-05",
+            "Mantenimiento Correctivo",
+            "se traslada estaci\u00f3n acelerogr\u00e1fica, se cambia la instrumentaci\u00f3n. se retiran los equipos con sn: etna 151, paneles solares y regulador solar. queda instalado el equipo lunitek con sn: eb-607",
+            "Andres Felipe Gomez"
+        ],
+        "recomendaciones": " ",
+        "fecha_creacion": "2024-1-26 ",
+        "n_img_ruido": 0,
+        "n_img_recom": 0
+    }
+]

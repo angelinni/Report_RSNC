@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": " ",
+        "disponibilidad": " ",
+        "gapover": " ",
+        "calidad": " ",
+        "offset": " ",
+        "ruido": " ",
+        "ultima_v": [
+            "2020-10-14",
+            "Mantenimiento Preventivo",
+            "acelerometro funcionando bien, se visito la estacion para hacer cambio de sismometro",
+            "Jorge Andres De La Rosa"
+        ],
+        "recomendaciones": "Estaci\u00f3n pendiente por la desinstalaci\u00f3n total de todos los equipos, debido a que el predio donde est\u00e1 ubicada la estaci\u00f3n no pertenece al propietario inicial y no se puede renovar el contrato de arrendamiento, porque el lote actualmente est\u00e1 a nombre de un banco. La intermitencia es debido a que el banco de bater\u00edas requiere cambio por obsolescencia en la vida \u00fatil de las bater\u00edas. 13-ago-2023 00:18 UT - 11-sep-2023 21:10 UT",
+        "fecha_creacion": "2024-1-4",
+        "n_img_ruido": 0,
+        "n_img_recom": 1
+    }
+]

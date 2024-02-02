@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": "La estaci\u00f3n h\u00edbrida present\u00f3 buen comportamiento durante el semestre",
+        "disponibilidad": "El porcentaje de funcionamiento promedio fue del 99.9% present\u00e1ndose un fallo en la recepci\u00f3n el 15 de marzo, con posterior recuperaci\u00f3n de los datos.",
+        "gapover": "En general la se\u00f1al present\u00f3 un bajo n\u00famero de gaps, pero tuvo multiples overlaps indicando cortes y recuperaci\u00f3n de la se\u00f1al a lo largo del semestre.",
+        "calidad": "Se observa un comportamiento general de las tres componentes dentro de los l\u00edmites esperados. Sin embargo, se presentan muchos picos en la se\u00f1al del sensor.\nEl registro de eventos locales, regionales e internacionales se observa claramente, pero con estas derivas.",
+        "offset": "El nivel de offset present\u00f3 un pico de desfase importante en las tres componentes asociado al corte que se present\u00f3 el 15 de marzo.\nLas componentes horizontales presentaron picos adicionales durante el mes de mayo.\nEn general se observa unos picos de baja frecuencia en la se\u00f1al a lo largo del periodo analizado.",
+        "ruido": "En general se observa un porcentaje bajo por fuera de las curvas de Peterson.\nEl comportamiento de los picos es notable a lo largo de la se\u00f1al y se observa en el registro de los eventos como una 'cola de rat\u00f3n'.",
+        "ultima_v": [
+            "2022-09-26",
+            "Mantenimiento Correctivo",
+            "se cambia sismoetro reftek_g12212 por reftek_193025, se lavan paneles solares, se desyerba alrededor estacion y bunker, se cambia acetato feed.",
+            "Ariel Portocarrero"
+        ],
+        "recomendaciones": "El sensor presenta muchos picos de baja frecuencia, afectando el registro de los sismos. Observar comportamiento y solicitar hacer ajustes en la siguiente visita a la estaci\u00f3n",
+        "fecha_creacion": "2024-1-14",
+        "n_img_ruido": 3,
+        "n_img_recom": 1
+    }
+]

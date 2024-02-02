@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": "La estaci\u00f3n h\u00edbrida tuvo un comportamiento bueno durante el semestre, con dos cortes largos importantes en el mes de junio aparentemente por baja potencia en la conexi\u00f3n satelital.",
+        "disponibilidad": "La estaci\u00f3n present\u00f3 una disponibilidad promedio del 99%",
+        "gapover": "Con el uso de la herramienta snuffler se puede observar que, a pesar de presentar un funcionamiento del 99%, se presentan m\u00faltiples cortes a lo largo del per\u00edodo revisado, con recuperaci\u00f3n de los datos pero la ocurrencia de overlaps en el  semestre. ",
+        "calidad": "Los datos presentan buen comportamiento en general, con un pico en el offset finalizando el mes de abril aparentemente asociado a un corte en la se\u00f1al que gener\u00f3 un overlap.",
+        "offset": "Los niveles de offset de la se\u00f1al presentan un comportamiento bueno en general en las tres componentes.",
+        "ruido": "La se\u00f1al presenta m\u00faltiples picos a lo largo del semestre, con un promedio de 27 picos.\nEl an\u00e1lisis de ruido evidencia que las tres componentes presentan en general buen comportamiento dentro de las curvas de Peterson.\nEl %ppsd es inferior a 1.8 para todas las componentes lo que indica un comportamiento esperado de la se\u00f1al.",
+        "ultima_v": [
+            "2022-09-11",
+            "Mantenimiento Correctivo",
+            "se instalan paneles cod_064143 y 064144, (2) baterias, se instala pararrayos, se limpian paneles y zona alrededor caseta, se retiran radios cod. 063690, 063691 y se instalan cod. 025198 y 046596, se limpia antena y se deja gps fuera del bunker. pendiente: llevar gabinete para instalar y cambiar alambre de puas alrededor bunker.",
+            "Oscar Suarez"
+        ],
+        "recomendaciones": "Se requiere revisar los cortes que se presentan en la transmisi\u00f3n que originan la ocurrenca de overlaps. ",
+        "fecha_creacion": "2024-1-13",
+        "n_img_ruido": 3,
+        "n_img_recom": 1
+    }
+]

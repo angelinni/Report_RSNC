@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": "Estaci\u00f3n h\u00edbrida que cuenta con 3 dispositivos de medici\u00f3n.\nLa estaci\u00f3n estaba presentando falla en el sistema de energ\u00eda desde el 2022, generando intermitencia en la transmisi\u00f3n, lo cual se corrigi\u00f3 con la visita de mantenimiento durante el mes de febrero cuando se realiz\u00f3 cambio en el banco de bater\u00edas.",
+        "disponibilidad": "La disponibilidad de la se\u00f1al de la estaci\u00f3n fue del 85.2% durante el semestre",
+        "gapover": "Se presentaron gaps durante los dos primeros meses del a\u00f1o por la falla del sistema el\u00e9ctrico, que se corrigieron a partir del cambio de banco de bater\u00edas. \nSe observa que el 2 de junio se present\u00f3 interrupci\u00f3n en la transmisi\u00f3n de la se\u00f1al, generando gaps en los datos",
+        "calidad": "En general se observa un buen comportamiento  a partir de la mejora implementada en el sistema de energ\u00eda durante la visita efectuada en febrero",
+        "offset": "El offset tuvo un comportamiento adecuado toda vez que la estaci\u00f3n se mantuvo estable en la transmisi\u00f3n.\nSe observan unos picos en la componente vertical que se reducen en amplitud. Sin embargo la se\u00f1al muestra un comportamiento del offset principalmente bajo.",
+        "ruido": "En general se observa que el promedio del ruido de las tres componentes est\u00e1 dentro de los l\u00edmites de las curvas de Peterson.",
+        "ultima_v": [
+            "2023-02-23",
+            "Mantenimiento Correctivo",
+            "se realiza mmtto al sistema de energia solar, se cambia banco de baterias por deterioro,  se lavan paneles solares y se podan ramas que le dan sombra.",
+            "Juan Carlos Lizcano"
+        ],
+        "recomendaciones": "Hacer seguimiento a los picos que se observan en la componente vertical.\nSe observa la presencia de discontinuidades en la se\u00f1al, que puede obedecer a cortes y recuperaci\u00f3n de la se\u00f1al. Continuar con el seguimiento del sistema de energ\u00eda y transmisi\u00f3n.",
+        "fecha_creacion": "2024-1-14",
+        "n_img_ruido": 3,
+        "n_img_recom": 1
+    }
+]

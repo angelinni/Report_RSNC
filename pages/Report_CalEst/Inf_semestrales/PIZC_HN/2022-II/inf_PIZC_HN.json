@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": " ",
+        "disponibilidad": " ",
+        "gapover": " ",
+        "calidad": " ",
+        "offset": " ",
+        "ruido": " ",
+        "ultima_v": [
+            "2023-09-12",
+            "Mantenimiento Correctivo",
+            "retiro de q330 4661 por no sincronizaci\u00f3n de tiempo e instalaci\u00f3n de q330 4868. \r\nrevisi\u00f3n de conexiones de energ\u00eda y comunicaciones, mantenimiento preventivo, aseo y poda de la estaci\u00f3n.",
+            "Juan Manuel Solano"
+        ],
+        "recomendaciones": " ",
+        "fecha_creacion": "2023-12-5 ",
+        "n_img_ruido": 0,
+        "n_img_recom": 0
+    }
+]

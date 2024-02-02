@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": " ",
+        "disponibilidad": " ",
+        "gapover": " ",
+        "calidad": " ",
+        "offset": " ",
+        "ruido": " ",
+        "ultima_v": [
+            "2023-10-23",
+            "Mantenimiento Preventivo",
+            "se instala modem celular teltonika rut240 para transmisi\u00f3n en tiempo real de la se\u00f1al.\r\nse actualiza la licencia de seedlink para transmitir en tiempo real\r\nse verifican par\u00e1metros de voltajes y corrientes.\r\nse descargan datos.\r\nse instala m\u00e1stil con antena logar\u00edtmica de alta ganancia para obtener una mejor se\u00f1al celular.\r\n",
+            "Johnnatan Fernandez,Patricia Pedraza"
+        ],
+        "recomendaciones": " ",
+        "fecha_creacion": "2024-1-6 ",
+        "n_img_ruido": 0,
+        "n_img_recom": 0
+    }
+]

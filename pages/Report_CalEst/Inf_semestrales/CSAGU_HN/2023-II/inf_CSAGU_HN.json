@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": "El funcionamiento de la estaci\u00f3n durante el semestre, se ha visto afectado por algunas fallas producto de la anomal\u00eda del servicio del operador de la red de celular, por el cual se transmiten los datos de la estaci\u00f3n.",
+        "disponibilidad": " ",
+        "gapover": "Los Gaps evidenciados son producto del problema con la transmisi\u00f3n de los datos, la estaci\u00f3n ha perdido muchos datos y no se recuperan.",
+        "calidad": " ",
+        "offset": " ",
+        "ruido": " ",
+        "ultima_v": [
+            "2023-09-20",
+            "Mantenimiento Correctivo",
+            "se realiza mantenimiento correctivo cambio del cambio de tarjeta sim card e instalaci\u00f3n de antena yagi de mayor ganancia.",
+            "Ariel Portocarrero"
+        ],
+        "recomendaciones": " ",
+        "fecha_creacion": "2024-1-22 ",
+        "n_img_ruido": 0,
+        "n_img_recom": 0
+    }
+]

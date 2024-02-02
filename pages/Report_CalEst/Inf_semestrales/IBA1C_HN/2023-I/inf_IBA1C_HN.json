@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": "La estaci\u00f3n present\u00f3 cortes y fallo en la transmisi\u00f3n de datos en diferentes per\u00edodos del semestre. Se analizan los datos disponibles",
+        "disponibilidad": "La estaci\u00f3n present\u00f3 un promedio de disponibilidad en las tres componentes del 66.9%",
+        "gapover": "Durante el primer semestre de 2023, la estaci\u00f3n present\u00f3 un promedio de 1.2 gaps, con tres momentos de m\u00e1s de 30 gaps en el mes de abril y junio",
+        "calidad": "En general se observa un comportamiento t\u00edpico de un aceler\u00f3grafo, con una variaci\u00f3n de deriva inferior a 20 cuentas, principalmente posterior a los momentos de cortes de se\u00f1al.",
+        "offset": "En promedio el offset no super\u00f3 las  -2.08 cuentas.",
+        "ruido": "Se observa el comportamiento t\u00edpico de un sensor de aceleraci\u00f3n. Sin ambargo presenta un promedio de ppsd superior al esperado, de 47.38%",
+        "ultima_v": [
+            "2022-09-13",
+            "Mantenimiento Correctivo",
+            "con apopyo del personal de sistema de la anm de ibague se restablece funcionamiento del acelerografo (cable de red mal en punto de conexion), se verifica salida de datos por la red de\r\nanm.",
+            "Ariel Portocarrero"
+        ],
+        "recomendaciones": "Mantener en observaci\u00f3n el sistema de transmisi\u00f3n de la estaci\u00f3n para evitar la p\u00e9rdida de informaci\u00f3n y buscar una alternativa de mejora en el punto de internet.",
+        "fecha_creacion": "2024-1-13",
+        "n_img_ruido": 3,
+        "n_img_recom": 1
+    }
+]

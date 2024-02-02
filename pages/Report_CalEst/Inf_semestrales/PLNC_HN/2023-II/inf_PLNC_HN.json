@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": " ",
+        "disponibilidad": " ",
+        "gapover": " ",
+        "calidad": " ",
+        "offset": " ",
+        "ruido": " ",
+        "ultima_v": [
+            "2023-04-17",
+            "Mantenimiento Correctivo",
+            "se reconfigura el digitaliz. basalt con el newatcher 10.100.100.226, se verifican conexiones electricas.",
+            "Andres Felipe Gomez"
+        ],
+        "recomendaciones": " ",
+        "fecha_creacion": "2024-1-24 ",
+        "n_img_ruido": 0,
+        "n_img_recom": 0
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": "Presenta fallas constantes en transmisi\u00f3n por problemas del internet de la ANM de Ibagu\u00e9.",
+        "disponibilidad": "La disponibilidad en el semestre fue del 64%",
+        "gapover": "La se\u00f1al presenta un alto n\u00famero de gaps, con un pico m\u00e1ximo de 44 gaps el 7 de noviembre.",
+        "calidad": "En general la se\u00f1al presenta ruido de alta frecuencia, pero registra bien los eventos",
+        "offset": "Los niveles de offset est\u00e1n dentro de lo esperado",
+        "ruido": "Se observa una tendencia del comportamiento del ruido hacia la curva superior de Peterson en todo el rango de frecuencias. Las altas frecuencias est\u00e1n presentes a lo largo de la se\u00f1al en todas las componentes, probablemente por la ubicaci\u00f3n del sensor en una zona de alto paso de personas y ruido electr\u00f3nico alrededor.",
+        "ultima_v": [
+            "2022-09-13",
+            "Mantenimiento Correctivo",
+            "con apopyo del personal de sistema de la anm de ibague se restablece funcionamiento del acelerografo (cable de red mal en punto de conexion), se verifica salida de datos por la red de\r\nanm.",
+            "Ariel Portocarrero"
+        ],
+        "recomendaciones": "Revisar la opci\u00f3n de mejorar el punto de red o establecer una alternativa de transmisi\u00f3n.",
+        "fecha_creacion": "2024-1-14",
+        "n_img_ruido": 3,
+        "n_img_recom": 1
+    }
+]

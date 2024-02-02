@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": "Esta estaci\u00f3n se transmite por telemetr\u00eda (radio enlace) a la estaci\u00f3n satelital de Pamplona - PAM.\nDurante el primer semestre de 2023 present\u00f3 constantemente fallo en la transmisi\u00f3n, por lo que se observan cortes frecuentes de la se\u00f1al, la presencia de gaps y un funcionamiento en total menor al 4% durante el semestre",
+        "disponibilidad": "Los datos no son funcionales.",
+        "gapover": "La estaci\u00f3n present\u00f3 m\u00faltiples gaps durante el primer semestre del 2023, lo que evita que la estaci\u00f3n sea funcional.",
+        "calidad": "Debido a los m\u00faltiples cortes de la se\u00f1al, los paquetes de datos registrados no permiten realizar un an\u00e1lisis de la se\u00f1al. Los paquetes de datos almacenados no se pueden aprovechar.",
+        "offset": " ",
+        "ruido": "Los datos registrados por la estaci\u00f3n no se pueden utilizar para ning\u00fan an\u00e1lisis.",
+        "ultima_v": [
+            "2022-03-18",
+            "Mantenimiento Preventivo",
+            "configuracion y verificacion de enlace de radio cpamp-pam con radio freewave. pendiente: instalar gabinete para proteger equipos.",
+            "Andres Felipe Gomez,Juan Manuel Solano"
+        ],
+        "recomendaciones": "Establecer una conexi\u00f3n de transmisi\u00f3n estable entre CPAMP y PAM para evitar la latencia de los datos y la p\u00e9rdidad continua de la informaci\u00f3n.\nManener la estaci\u00f3n en observaci\u00f3n.",
+        "fecha_creacion": "2024-1-13",
+        "n_img_ruido": 0,
+        "n_img_recom": 0
+    }
+]

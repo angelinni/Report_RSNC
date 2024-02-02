@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": "La estaci\u00f3n h\u00edbrida present\u00f3 buen comportamiento durante el semestre",
+        "disponibilidad": "El porcentaje de funcionamiento promedio fue del 99.9% present\u00e1ndose un fallo en la recepci\u00f3n el 15 de marzo, con posterior recuperaci\u00f3n de los datos.",
+        "gapover": "En general la se\u00f1al present\u00f3 un bajo n\u00famero de gaps, pero tuvo multiples overlaps indicando cortes y recuperaci\u00f3n de la se\u00f1al a lo largo del semestre.",
+        "calidad": "Se observa un comportamiento general de las tres componentes dentro de los l\u00edmites esperados. Se observa un cambio at\u00edpico en la se\u00f1al de las tres componentes finalizando el mes de mayo.",
+        "offset": "El nivel de offset present\u00f3 un desfase importante en las tres componentes durante el mes de mayo.",
+        "ruido": "En general se observa un comportamiento del ruido t\u00edpico de este tipo de sensor.",
+        "ultima_v": [
+            "2022-09-26",
+            "Mantenimiento Correctivo",
+            "se cambia sismoetro reftek_g12212 por reftek_193025, se lavan paneles solares, se desyerba alrededor estacion y bunker, se cambia acetato feed.",
+            "Ariel Portocarrero"
+        ],
+        "recomendaciones": "El sensor presenta picos de baja frecuencia durante mayo, modificando el offset de la se\u00f1a de las tres componentes. Observar comportamiento y solicitar hacer ajustes en la siguiente visita a la estaci\u00f3n",
+        "fecha_creacion": "2024-1-14",
+        "n_img_ruido": 3,
+        "n_img_recom": 1
+    }
+]

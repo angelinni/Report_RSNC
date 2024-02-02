@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": " ",
+        "disponibilidad": "En el mes de julio la estaci\u00f3n present\u00f3 una perdida de datos debido a la terminaci\u00f3n del plan para la trasmisi\u00f3n de datos por la red ceular de la esta estaci\u00f3n, y finalizando el mes de septiembre, tuvo algunas perdidas de datos por problemas de la se\u00f1al de la red celular por la que transmite la estaci\u00f3n. ",
+        "gapover": " ",
+        "calidad": " ",
+        "offset": " ",
+        "ruido": " ",
+        "ultima_v": [
+            "2023-07-24",
+            "Mantenimiento Correctivo",
+            "se ubican los 3 paneles solares en el techo de la bodega. se requirio instalar 15 metros de cable duplex.",
+            "Andres Felipe Gomez"
+        ],
+        "recomendaciones": " ",
+        "fecha_creacion": "2024-1-12 ",
+        "n_img_ruido": 0,
+        "n_img_recom": 0
+    }
+]

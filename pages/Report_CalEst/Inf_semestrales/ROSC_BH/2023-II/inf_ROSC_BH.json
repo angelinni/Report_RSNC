@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": " ",
+        "disponibilidad": " ",
+        "gapover": " ",
+        "calidad": " ",
+        "offset": " ",
+        "ruido": " ",
+        "ultima_v": [
+            "2023-11-13",
+            "Mantenimiento Preventivo",
+            "pendiente el cambio del sism\u00f3metro banda ancha, posiblemente se instale un sensor de la rsnc para tener informaci\u00f3n de esta estaci\u00f3n, se verifico el sistema de comunicaciones y energia",
+            "Sergio Jaramillo"
+        ],
+        "recomendaciones": " ",
+        "fecha_creacion": "2024-1-5 ",
+        "n_img_ruido": 0,
+        "n_img_recom": 0
+    }
+]

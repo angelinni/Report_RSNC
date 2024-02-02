@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": " ",
+        "disponibilidad": " ",
+        "gapover": " ",
+        "calidad": " ",
+        "offset": " ",
+        "ruido": " ",
+        "ultima_v": [
+            "2022-03-15",
+            "Mantenimiento Preventivo",
+            "pruebas al enlace de telemetria con el cerro \"cruz verde\" por medio de radios seriales.",
+            "Juan Carlos Lizcano"
+        ],
+        "recomendaciones": " ",
+        "fecha_creacion": "2024-1-22 ",
+        "n_img_ruido": 0,
+        "n_img_recom": 0
+    }
+]

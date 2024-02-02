@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": "Durante el tiempo que est\u00e1 por dendr\u00f3 la estac\u00edo tiene un buen funcionamiento.",
+        "disponibilidad": "Desde el 8 de septiembre de 2023 hata el 17 de noviembre de 2023 estuvo por fuera, y durante las fechas del 24 de noviembre de 2023 al 4 de diciembre,  esto debido a problemas de comunicaci\u00f3n satelital",
+        "gapover": " ",
+        "calidad": "Durante el semestre presentaba buana calidad, al ingresar el 4 de diciembre de 2023 bajo la calidad al presentar mucho ruido y cortes.",
+        "offset": " ",
+        "ruido": "Desde el 4 de diciembre de 2023 el promedio del espectro de ruido del acelerografo se encuentra 100 % por fuera de las curvas de Peterson, puede ser por el archivo de respuesta.",
+        "ultima_v": [
+            "2023-11-16",
+            "Mantenimiento Correctivo",
+            "se realiza limpieza de equipos e interior del shelter. se ajustan en la pared breaks dc entre los paneles y el regulador y de las bater\u00edas a las cargas. se realiza limpieza de los paneles solares. se realiza limpieza de maleza alrededor del shelter y de la antena.\r\nse cambi\u00f3 modem satelital, se retira cb: 016059 y se instala cb: 055053\r\n",
+            "Andres Felipe Gomez"
+        ],
+        "recomendaciones": " ",
+        "fecha_creacion": "2024-2-1 ",
+        "n_img_ruido": 1,
+        "n_img_recom": 0
+    }
+]

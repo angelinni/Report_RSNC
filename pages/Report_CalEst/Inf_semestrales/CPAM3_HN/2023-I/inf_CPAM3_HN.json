@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": "Estaci\u00f3n h\u00edbrida de 4 canales. Adicional al sensor Geospace vertical, se encuentra instalado un aceler\u00f3metro Episensor.\nLa estaci\u00f3n present\u00f3 intermitencia durante  el semestre con un incremento importante a partir del mes de abril, principalmente en la componente vertical.\n",
+        "disponibilidad": "En promedio la estaci\u00f3n present\u00f3 disponibilidad del 90.2%",
+        "gapover": "Se presentaron gaps a lo largo del semestre con un incremento importante a partir del mes de abril y una m\u00e1xima de gaps en el mes de junio, principalmente en la componente vertical.",
+        "calidad": "El comportamiento de la se\u00f1al se encuentra dentro de los par\u00e1metros esperados para el comportamiento de un aceler\u00f3metro",
+        "offset": "Los valores de offset de las tres componentes presentan variaciones dentro de los rangos esperados para este tipo de sensor",
+        "ruido": "Para el per\u00edodo revisado y, teniendo en cuenta la intermitencia que se present\u00f3, se observa que el aceler\u00f3metro muestra un comportamiento dentro de la media asociado a pesar de los cortes presentados, con un valor promedio en el semestre de 35%.",
+        "ultima_v": [
+            "2022-12-05",
+            "Mantenimiento Correctivo",
+            "se retira etna_147 y se instala  episensor_6860 y geospace_1664, y  modem teltonika-rutc-240_1119036349, para transmision en tiempo real.",
+            "Juan Manuel Solano"
+        ],
+        "recomendaciones": "Se requiere revisar el sistema de transmisi\u00f3n para evitar los m\u00faltiples cortes que se presentan en el segundo trimestre.",
+        "fecha_creacion": "2024-1-12",
+        "n_img_ruido": 3,
+        "n_img_recom": 1
+    }
+]

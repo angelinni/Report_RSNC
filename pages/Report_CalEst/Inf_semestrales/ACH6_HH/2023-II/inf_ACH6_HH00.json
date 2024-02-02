@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": " ",
+        "disponibilidad": " ",
+        "gapover": " ",
+        "calidad": " ",
+        "offset": " ",
+        "ruido": " ",
+        "ultima_v": [
+            "2023-07-14",
+            "Mantenimiento Correctivo",
+            "se realiza poda de la estaci\u00f3n.\r\nse cambia instrumentaci\u00f3n: digitalizador: sn retirado: tu52 sn instalado: min-e75c sism\u00f3metro: sn retirado: t1012  sn instalado: t44331\r\nse retira panel solar con cb: 054535\r\nse verificaci\u00f3n de radio enlace y su capacidad.\r\n",
+            "Andres Felipe Gomez"
+        ],
+        "recomendaciones": " ",
+        "fecha_creacion": "2024-1-11 ",
+        "n_img_ruido": 0,
+        "n_img_recom": 0
+    }
+]

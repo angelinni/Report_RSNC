@@ -1,0 +1,20 @@
+[
+    {
+        "funcionamiento": " ",
+        "disponibilidad": " ",
+        "gapover": " ",
+        "calidad": " ",
+        "offset": " ",
+        "ruido": " ",
+        "ultima_v": [
+            "2023-07-19",
+            "Mantenimiento Correctivo",
+            "se cambian los sgtes equipos: modem_161995392 por el 142649516, buc a00480d09 por el a00617d0x, lnb a02224b26 por el a00240s82, se poda y limpia el terreno, se lavan paneles.",
+            "Sergio Jaramillo"
+        ],
+        "recomendaciones": " ",
+        "fecha_creacion": "2024-1-11 ",
+        "n_img_ruido": 0,
+        "n_img_recom": 0
+    }
+]
