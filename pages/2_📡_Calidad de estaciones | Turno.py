@@ -1074,7 +1074,7 @@ def est1_informe_m():
     st.sidebar.markdown(".")
     
     #SELECCION DE FECHAS
-    year =["2023","2022"]
+    year =["2024","2023","2022"]
     month = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"]
     col1, col2 = st.sidebar.columns([1,1])
     with col1:
