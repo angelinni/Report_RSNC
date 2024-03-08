@@ -1,11 +1,11 @@
 [
     {
-        "funcionamiento": " ",
-        "disponibilidad": " ",
-        "gapover": " ",
-        "calidad": " ",
-        "offset": " ",
-        "ruido": " ",
+        "funcionamiento": "Durante el primer semestre de 2023 la estaci\u00f3n sismol\u00f3gica Puerto Berrio (PTB-00-HH) funcion\u00f3 adecuadamente desde el 1\u00b0 de enero hasta el 30 de abril y a partir del 1\u00b0 de mayo y hasta el 30 de junio la estaci\u00f3n estuvo fuera de funcionamiento totalmente (por fuera).",
+        "disponibilidad": "La disponibilidad m\u00ednima diaria, m\u00e1xima diaria y promedio diario de datos de la estaci\u00f3n Puerto Berrio (PTB-00-HH) durante el primer semestre de 2023 se relacionan en la Tabla 1. La disponibilidad mensual promedio fue del 100% en enero, del 99,96% en febrero, del 100% en marzo, del 97,90% en abril, y del 0% en mayo y junio (Figura 1).",
+        "gapover": "Durante los d\u00edas del primer semestre de 2023 en los que la estaci\u00f3n PTB-00-HH funcion\u00f3 normalmente, el registro de datos se encuentra afectado por algunos gaps y overlaps de corta duraci\u00f3n debidos posiblemente a la ausencia temporal de sincron\u00eda entre el GPS del sensor y la nube de sat\u00e9lites (Tabla 2, Figura 2).",
+        "calidad": "Como par\u00e1metros de calidad se toman el offset y el an\u00e1lisis de ruido.",
+        "offset": "Durante el primer semestre de 2023 la estaci\u00f3n Puerto Berrio (PTB-00-HH) presenta valores altos y bajos de offset en las tres componentes como lo indican los m\u00ednimos y m\u00e1ximos de cuentas relacionados en la Tabla 4 y mostrados en la Figura 3.",
+        "ruido": "El porcentaje de PPSD (%ppsd) indica el valor de la media del espectro de ruido en cada componente de la estaci\u00f3n que se encuentra por fuera de las curvas de Peterson.\nLa estaci\u00f3n PTB-00-HH presenta valores de %ppsd bajos comprendido entre el 2,5% y el 7,75% (Tabla 5, Figura 4).",
         "ultima_v": [
             "2022-11-11",
             "Mantenimiento Correctivo",

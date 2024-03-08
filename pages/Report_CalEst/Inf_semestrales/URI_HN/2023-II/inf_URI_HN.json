@@ -1,20 +1,20 @@
 [
     {
-        "funcionamiento": " ",
-        "disponibilidad": " ",
-        "gapover": " ",
-        "calidad": " ",
-        "offset": " ",
-        "ruido": " ",
+        "funcionamiento": "En el periodo 2023-II la disponibilidad de la estaci\u00f3n fue del 100%. Luego de la visita a la estaci\u00f3n en la cual se reemplazo el banco de bater\u00edas, la disponibilidad se ha mantenido constante",
+        "disponibilidad": "Durante el periodo 2023-II la estaci\u00f3n sismol\u00f3gica ha presentado un promedio de disponibilidad del 100%\n",
+        "gapover": "Se han presentado un valor m\u00e1ximo de 1 Gaps diarios y un promedio de 0.34 ,los cuales son aceptables. Se ha presentado un promedio de overlaps de 0.26 los cuales son aceptables y se asocian a problemas del sistema de gps.\n",
+        "calidad": "La estaci\u00f3n ha presentado buen registro, con un m\u00e1ximo de picos diario de1 , asociado a actividades antr\u00f3picas en la regi\u00f3n o conexiones el\u00e9ctricas.",
+        "offset": "Durante el periodo 2023-II, la estaci\u00f3n offset promedio de 1181 cuentas en la componente Z, en la componente N -14626 cuentas y -464 cuentas. Se recomienda ajustar el offset en la pr\u00f3xima visita ",
+        "ruido": "Durante el segundo semestre de 2023, el espectro de ruido de la estaci\u00f3n excedi\u00f3 un 40% las curvas de referencia, del espectro de ruido se observa que esto suceda en la banda de frecuencias < 0. Hz",
         "ultima_v": [
             "2023-06-23",
             "Mantenimiento Correctivo",
             "se realiz\u00f3 el env\u00edo del banco de bater\u00edas, una vez all\u00ed se requirio su desplazamiento en vehiculo 4x4 hasta faltando 2 km para llegar a la base militar, de alli en semovientes hasta la base militar y jornaleros hasta la estaci\u00f3n. se cambi\u00f3 banco de bater\u00edas, se reliz\u00f3 limpieza de paneles solares. \r\n",
             "Andres Felipe Gomez"
         ],
-        "recomendaciones": " ",
-        "fecha_creacion": "2024-1-10 ",
-        "n_img_ruido": 0,
+        "recomendaciones": "Realizar el mantenimiento preventivo de la estaci\u00f3n y ajustar el offset de la estaci\u00f3n acelerografica ",
+        "fecha_creacion": "2024-2-14",
+        "n_img_ruido": 1,
         "n_img_recom": 0
     }
 ]

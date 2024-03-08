@@ -1,20 +1,20 @@
 [
     {
-        "funcionamiento": " ",
-        "disponibilidad": " ",
-        "gapover": " ",
-        "calidad": " ",
-        "offset": " ",
-        "ruido": " ",
+        "funcionamiento": "En el periodo 2023-II la disponibilidad de la estaci\u00f3n fue del 99.99%. Durante la ultima visita, se verificaron los par\u00e1metros del sistema de comunicaciones, se cambia antena gps, corneta del feed que estaba rota. La estaci\u00f3n ha presentado buen comportamiento en el periodo",
+        "disponibilidad": "Durante el periodo 2023-II la estaci\u00f3n sismol\u00f3gica ha presentado un promedio de disponibilidad del 99.99%\n",
+        "gapover": "Se han presentado un valor m\u00e1ximo de 2 Gaps diarios y un promedio de 0.33 ,los cuales son aceptables. Se ha presentado un promedio de overlaps de 0.25 los cuales son aceptables y se asocian a problemas del sistema de gps.\n",
+        "calidad": "Durante el segundo semestre de 2023, la estaci\u00f3n presenta gran cantidad de picos diarios (8), esto se debe principalmente a condiciones antr\u00f3picas de la estaci\u00f3n. se recomienda verificar conexiones el\u00e9ctricas que ayuden a disminuir la cantidad de picos diarios",
+        "offset": "Las tres componentes del sismometro se ha comportado con poca variabilidad en el semestre, , sin embargo la componente HZ presenta valores de Offset promedio de 2601 cuentas mientras la componente HN y HE presentan valores promedio de 296 y  63  cuentas respectivamente.\n",
+        "ruido": "Durante el segundo semestre de 2023, el ruido de la estaci\u00f3n se mantiene m\u00e1s del 30 % del tiempo por encima de las curvas de referencia de Peterson, esto se debe principalmente a ruido antr\u00f3pico , ya que las ppsd excede las curvas de referencia en la banda < 0.1 hZ y frecuencias mayores a 10 hz ",
         "ultima_v": [
             "2023-07-13",
             "Mantenimiento Correctivo",
             "se verifican los parametros del sistema de comunicaciones, se cambia antena gps, corneta del feed que estaba rota, se cambia lnb_a01848b14 por el a01495a82, switch_g130424592 por el sixnet_t135006882 se realiza poda, fumigacion y limpiea gral de la estacion.",
             "Johnnatan Fernandez"
         ],
-        "recomendaciones": " ",
-        "fecha_creacion": "2024-1-10 ",
-        "n_img_ruido": 0,
+        "recomendaciones": "Realizar el mantenimiento preventivo de la estaci\u00f3n y verificar conexiones el\u00e9ctricas. Se presenta gran cantidad de picos en la se\u00f1al de la estaci\u00f3n.",
+        "fecha_creacion": "2024-2-14",
+        "n_img_ruido": 1,
         "n_img_recom": 0
     }
 ]

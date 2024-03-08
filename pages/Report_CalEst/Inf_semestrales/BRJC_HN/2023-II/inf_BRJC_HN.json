@@ -1,20 +1,20 @@
 [
     {
-        "funcionamiento": " ",
-        "disponibilidad": " ",
-        "gapover": " ",
-        "calidad": " ",
-        "offset": " ",
-        "ruido": " ",
+        "funcionamiento": "En el periodo 2023-II la disponibilidad de la estaci\u00f3n fue del 94.12%. Se observan 4 Gaps el mas grande ocurrido desde el 16 al 24 de agosto de 2024, el corte del 03 al 06 de julio de 2023, se presento debido a que el contrato de trasmisi\u00f3n de datos de esta estaci\u00f3n se hab\u00eda acabado., los dem\u00e1s cortes y gaps se asocian a problemas de transmisi\u00f3n de la red celular",
+        "disponibilidad": "Durante el periodo 2023-II la estaci\u00f3n sismol\u00f3gica ha presentado un promedio de disponibilidad del 94.12%, las perdidas de datos se deben principalmente a problemas de transmisi\u00f3n celular \n",
+        "gapover": "Se han presentado un promedio de 4.26 gaps , asociados principalmente con problemas de transmisi\u00f3n celular, se presento nuebe (9) overlaps los cuales se presentaron el 11 de septiembre .\n\n",
+        "calidad": "La estaci\u00f3n ha presentado buen registro en el periodo tiempo, con un m\u00e1ximo de picos diario de 9,  asociado a actividades antr\u00f3picas en la regi\u00f3n.\n",
+        "offset": "Durante el periodo 2023-II, la estaci\u00f3n ha presentado un offset promedio de -57992 cuentas en la componente Z, en la componente N -37549 cuentas y -139510\n cuentas en la componente HE.  Durante los d\u00edas del 23 de julio al 23 de agosto de 2023 se observa un incremento del offset en las componentes Z y E,  pasado este periodo se normaliza y se ha mantenido en valores normales.\n\n\nLos valores se encuentran dentro del rango de buen funcionamiento del sensor sin embargo se recomienda ajustar el offset.\n",
+        "ruido": "Durante el periodo 2023-II las curvas de ppsd muestran que los niveles de ruido en las componentes exceden 39% de las curvas de referencia, en la curva de ruido se observa que el ruido excede para frecuencia a 0.1 Hz",
         "ultima_v": [
             "2023-11-19",
             "Mantenimiento Preventivo",
             "mantenimiento preventivo de la estaci\u00f3n. se realiza ajuste del nivel de offset al sism\u00f3metro y env\u00eda pulso de centrado al aceler\u00f3grafo etna 2.  se realizan labores de desyerbe y limpieza en los alrededores del panel solar y el bunker de la estaci\u00f3n. se arregla el cercado de alambre de p\u00faa\r\n",
             "Juan Carlos Lizcano"
         ],
-        "recomendaciones": " ",
-        "fecha_creacion": "2024-1-10 ",
-        "n_img_ruido": 0,
+        "recomendaciones": "realizar el mantenimiento preventivo de la estaci\u00f3n",
+        "fecha_creacion": "2024-2-9",
+        "n_img_ruido": 2,
         "n_img_recom": 0
     }
 ]

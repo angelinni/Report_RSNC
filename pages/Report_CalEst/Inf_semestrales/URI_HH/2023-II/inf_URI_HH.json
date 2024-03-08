@@ -1,11 +1,11 @@
 [
     {
-        "funcionamiento": " ",
-        "disponibilidad": " ",
-        "gapover": " ",
-        "calidad": " ",
-        "offset": " ",
-        "ruido": " ",
+        "funcionamiento": "En el periodo 2023-II la disponibilidad de la estaci\u00f3n fue del 100%. Luego de la visita a la estaci\u00f3n en la cual se reemplazo el banco de bater\u00edas, la disponibilidad se ha mantenido constante",
+        "disponibilidad": "Durante el periodo 2023-II la estaci\u00f3n sismol\u00f3gica ha presentado un promedio de disponibilidad del 100%\n",
+        "gapover": "Se han presentado un valor m\u00e1ximo de 1 Gaps diarios y un promedio de 0.34 ,los cuales son aceptables. Se ha presentado un promedio de overlaps de 0.26 los cuales son aceptables y se asocian a problemas del sistema de gps.\n",
+        "calidad": "La estaci\u00f3n ha presentado buen registro, con un m\u00e1ximo de picos diario de 8, asociado a actividades antr\u00f3picas en la regi\u00f3n o conexiones el\u00e9ctricas.",
+        "offset": "Durante el periodo 2023-II, la estaci\u00f3n offset promedio de 272 cuentas en la componente Z, en la componente N -344 cuentas y -483 cuentas. Se recomienda ajustar el offset en la pr\u00f3xima visita ",
+        "ruido": "En t\u00e9rminos generales, durante el segundo semestre de 2023, el espectro de ruido de la estaci\u00f3n permaneci\u00f3 dentro de las curvas de referencia, en todo el rango de frecuencia. presentando buen comportamiento.",
         "ultima_v": [
             "2023-06-23",
             "Mantenimiento Correctivo",
@@ -14,7 +14,7 @@
         ],
         "recomendaciones": " ",
         "fecha_creacion": "2024-1-10 ",
-        "n_img_ruido": 0,
+        "n_img_ruido": 1,
         "n_img_recom": 0
     }
 ]

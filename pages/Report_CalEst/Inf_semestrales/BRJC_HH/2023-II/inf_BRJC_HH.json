@@ -1,20 +1,20 @@
 [
     {
-        "funcionamiento": " ",
-        "disponibilidad": " ",
-        "gapover": " ",
-        "calidad": " ",
-        "offset": " ",
-        "ruido": " ",
+        "funcionamiento": "En el periodo 2023-II la disponibilidad de la estaci\u00f3n fue del 99.37%. Durante los d\u00edas del 04 al 06 de julio de 2023, se presento un corte debido a que el contrato de trasmisi\u00f3n de datos de esta estaci\u00f3n se hab\u00eda acabado.",
+        "disponibilidad": "Durante el periodo 2023-II la estaci\u00f3n sismol\u00f3gica ha presentado un promedio de disponibilidad del 99.37%, las perdidas de datos se deben principalmente a problemas asociados al contrato con el operador de la red celular.\n",
+        "gapover": "Se han presentado un valor m\u00e1ximo de 6 Gaps diarios y un promedio de 0.61 , asociados principalmente con problemas de transmisi\u00f3n celular, se presento un  (1) overlaps.\n\n\n",
+        "calidad": "Durante el segundo semestre de 2023, la estaci\u00f3n presenta gran cantidad de picos diarios (11), esto se debe principalmente a condiciones antr\u00f3picas de la estaci\u00f3n, la cual se encuentra en predios de la Universidad del Quind\u00edo en un sitio altamente transitado por veh\u00edculos y paso peatonal, a pesar de esto ha mostrado un buen comportamiento durante el semestre.\n",
+        "offset": "Las tres componentes del aceler\u00f3metro presentan gran variabilidad del offset en el tiempo, esto debido posiblemente a las condiciones de ruido del sitio, sin embargo la componente HZ presenta valores de Offset promedio de 5156 cuentas mientras la componente HN y HE presentan valores promedio de 24 y -2496 cuentas respectivamente, se recomienda tratar de bajar estos valores en la pr\u00f3xima visita. \n",
+        "ruido": "Durante el periodo 2023-II las curvas de ppsd muestran que los niveles de ruido en la componente vertical exceden 0.62% de las curvas de referencia, la componente HNN 10% y la componente HNE 9%, del espectro se observa que la curva de ruido de la componente vertical se mantiene dentro de las curvas de referencia en todo el rango de frecuencia, las componentes horizantales tienden a ser mas ruidosas, este ruido se observa en la banda de frecuencias menores a 0.01 Hz,\n\n",
         "ultima_v": [
             "2023-11-19",
             "Mantenimiento Preventivo",
             "mantenimiento preventivo de la estaci\u00f3n. se realiza ajuste del nivel de offset al sism\u00f3metro y env\u00eda pulso de centrado al aceler\u00f3grafo etna 2.  se realizan labores de desyerbe y limpieza en los alrededores del panel solar y el bunker de la estaci\u00f3n. se arregla el cercado de alambre de p\u00faa\r\n",
             "Juan Carlos Lizcano"
         ],
-        "recomendaciones": " ",
-        "fecha_creacion": "2024-1-10 ",
-        "n_img_ruido": 0,
+        "recomendaciones": "Realizar el mantenimiento preventivo de la estaci\u00f3n",
+        "fecha_creacion": "2024-2-8",
+        "n_img_ruido": 1,
         "n_img_recom": 0
     }
 ]

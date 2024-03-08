@@ -1,20 +1,20 @@
 [
     {
-        "funcionamiento": " ",
-        "disponibilidad": " ",
-        "gapover": " ",
-        "calidad": " ",
-        "offset": " ",
-        "ruido": " ",
+        "funcionamiento": "En el periodo 2023-II la disponibilidad de la estaci\u00f3n fue del 38.31 %. Estuvo por fuera desde agosto de 2023 hasta el 17 de noviembre de 2023, debido a problemas en el sistema el\u00e9ctrico, la estaci\u00f3n ha presentado buen funcionamiento luego de la visita de mantenimiento realizada el 08 de noviembre, en la que se instalaron 2 bater\u00edas de 12V 55AH, se verificaron conexiones el\u00e9ctricas y protecciones en DC\n\n",
+        "disponibilidad": "Durante el periodo 2023 - II la estaci\u00f3n ha presentado un promedio de disponibilidad del 38%\n",
+        "gapover": "Se han presentado un valor m\u00e1ximo de 34 Gaps diarios y un promedio de 0.46 debido a problemas en la cobertura de la red celular, estos son aceptables, no se han presentado overlaps.\n\n",
+        "calidad": "La estaci\u00f3n ha presentado buen registro en el periodo tiempo, con un m\u00e1ximo de picos diario de 21, asociados a actividades antr\u00f3picas en la regi\u00f3n o problemas en conexiones el\u00e9ctricas, estos picos disminuyeron luego de la visita de mantemiento realizada el 08 de noviembre .\n",
+        "offset": "Durante el periodo 2023-II, la estaci\u00f3n offset promedio de -790 cuentas en la componente Z, en la componente N -2563 cuentas y -4499 cuentas en la componente HNE , valores constantes. Se recomienda ajustar el Offset de las componentes del aceler\u00f3metro\n",
+        "ruido": "Durante el periodo 2023-II la estaci\u00f3n ha presentado valor promedio del ppsd por fuera del 40.% en sus tres componentes,, esto se debe principalmente a actividades antr\u00f3picas en cerca a la estaci\u00f3n y a la forma plana de los espectros de los aceler\u00f3grafos. este ruido es mas evidente en las componentes horizontales para frecuencias menores a 0.1Hz, asociadas a actividades antr\u00f3picas ",
         "ultima_v": [
             "2023-02-06",
             "Mantenimiento Correctivo",
             "se cambio el sistema de energia comercial por energia solar, se instalaron 4 paneles solares de 240w y regulador solar morningstar 60amp, se realiza el cambio del digital. q330s sn: 4867 por q330 sn: 4489 debido a da\u00f1o presentado en el equipo, se realiza la instalaci\u00f3n del modem-rut240_1119035386_para cambiar la transmision satelital a celular, se retira el modem comtech sn: 161988416. se poda y limpia la estaci\u00f3n.",
             "Andres Felipe Gomez,Sergio Jaramillo"
         ],
-        "recomendaciones": " ",
-        "fecha_creacion": "2024-1-10 ",
-        "n_img_ruido": 0,
+        "recomendaciones": "Ajustar el offset del aceler\u00f3grafo",
+        "fecha_creacion": "2024-2-5",
+        "n_img_ruido": 1,
         "n_img_recom": 0
     }
 ]

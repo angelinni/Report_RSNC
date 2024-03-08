@@ -1,20 +1,20 @@
 [
     {
-        "funcionamiento": " ",
-        "disponibilidad": " ",
-        "gapover": " ",
-        "calidad": " ",
-        "offset": " ",
-        "ruido": " ",
+        "funcionamiento": "Durante el segundo semestre de 2023, la estaci\u00f3n CCALA presento un promedio de disponibilidad del 99.54%, la estaci\u00f3n acelerogr\u00e1fica se trasmite por radio a la Universidad del Quind\u00edo y desde all\u00ed es compartida a la sede central del SGC v\u00eda internet, la estaci\u00f3n ha presentado GAPS debido principalmente a un problema en el  fluido el\u00e9ctrico comercial ocurrido el 21 de septiembre de 2023.",
+        "disponibilidad": "La estaci\u00f3n acelerogr\u00e1fica CCALA, funciono al 99.54% de durante el segundo semestre de 2023.",
+        "gapover": "La estaci\u00f3n acelerogr\u00e1fica CCALA, durante el periodo 2023-II, no ha presentado overlaps, sin embargo, ocurrieron un valor promedio de 0.6 gaps, estos ocasionados principalmente por problemas de la trasmisi\u00f3n de datos v\u00edas internet.",
+        "calidad": "Durante el segundosemestre de 2023, la estaci\u00f3n ha mostrado un buen comportamiento, se han presentado un valor m\u00e1ximo de picos diarios de 3, asociados posiblemente a conexiones el\u00e9ctricas o ruido antr\u00f3pico cerca a la estaci\u00f3n, la estaci\u00f3n se encuentra cerca a una v\u00eda veredal y a la casa de la finca donde se ubica la estaci\u00f3n.",
+        "offset": "Las tres componentes del aceler\u00f3metro presentan variabilidad del offset en el tiempo, sin embargo, los valores promedio de las tres componentes son similares, la componente HZ presenta valores de Offset promedio de -29241 cuentas mientras la componente HN y HE presentan valores promedio de -31519.59 y 35992.58 cuentas respectivamente, se recomienda ajustar estos valores en la pr\u00f3xima visita. \n",
+        "ruido": "Durante el periodo 2023-I, el ruido de la estaci\u00f3n se mantiene el 35 % del tiempo por encima de las curvas de referencia de Peterson, sin embargo al observar el espectro de ruido, se tiene que la ppsd sobresale de las curvas de referencia en el rango de frecuencias menores a 0.2 HZ y ligeramente en las frecuencias de 1 a 5 HZ esto se debe principalmente a condiciones propias del sitio donde se encuentra la estaci\u00f3n  y ruido antr\u00f3pico. La estaci\u00f3n se encuentra ubicada cerca a la casa de una finca y a una v\u00eda veredal poco transitada.\n",
         "ultima_v": [
             "2020-06-03",
             "Mantenimiento Correctivo",
             "se realiza arreglo de la puerta de la estacion por da\u00f1o sufrido despues de intento de robo (incluyendo el marco de la misma). la estacion queda operando correctamente.",
             "Marisol Gomez Cano"
         ],
-        "recomendaciones": " ",
-        "fecha_creacion": "2024-1-10 ",
-        "n_img_ruido": 0,
+        "recomendaciones": "- Se solicita diligenciar los formatos de mantenimiento al personal del OSQ encargado de realizar los mantenimientos preventivos a la estaci\u00f3n, desde hace varios a\u00f1os el OSQ de la Universidad del Quind\u00edo nos ha apoyado realizando el mantenimiento preventivo de esta estaci\u00f3n, sin embargo, es importante diligenciar los formatos de visita cuando esta se realice.\nAjustar el offset del aceler\u00f3grafo\nVerificar conexiones el\u00e9ctricas.\n",
+        "fecha_creacion": "2024-2-11",
+        "n_img_ruido": 1,
         "n_img_recom": 0
     }
 ]

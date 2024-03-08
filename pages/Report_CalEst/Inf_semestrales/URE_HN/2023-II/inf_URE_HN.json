@@ -1,20 +1,20 @@
 [
     {
-        "funcionamiento": " ",
-        "disponibilidad": " ",
-        "gapover": " ",
-        "calidad": " ",
-        "offset": " ",
-        "ruido": " ",
+        "funcionamiento": "En el periodo 2023-II la disponibilidad de la estaci\u00f3n fue del 99.99%. Durante la ultima visita, se verificaron los par\u00e1metros del sistema de comunicaciones, se cambia antena gps, corneta del feed que estaba rota. La estaci\u00f3n ha presentado buen comportamiento en el periodo",
+        "disponibilidad": "Durante el periodo 2023-II la estaci\u00f3n sismol\u00f3gica ha presentado un promedio de disponibilidad del 99.99%\n",
+        "gapover": "Se han presentado un valor m\u00e1ximo de 2 Gaps diarios y un promedio de 0.33 ,los cuales son aceptables. Se ha presentado un promedio de overlaps de 0.26 los cuales son aceptables y se asocian a problemas del sistema de gps.\n",
+        "calidad": "La estaci\u00f3n ha presentado buen registro, con un m\u00e1ximo de picos diario de 1, asociado a actividades antr\u00f3picas en la regi\u00f3n o conexiones el\u00e9ctricas que generan estos\n",
+        "offset": "Durante el periodo 2023-II, la estaci\u00f3n offset promedio de 3889 cuentas en la componente Z, en la componente N -29651 cuentas y -46177 cuentas. Se recomienda ajustar el offset en la pr\u00f3xima visita ",
+        "ruido": "En t\u00e9rminos generales, durante el segundo semestre de 2023, el espectro de ruido de la estaci\u00f3n excedi\u00f3 un 30% las curvas de ruido de referencia, esto ocurri\u00f3 en le rango de 0.3 a 1 Hz, estos niveles de ruido se asocian a actividades antr\u00f3picas cerca de la estaci\u00f3n",
         "ultima_v": [
             "2023-07-13",
             "Mantenimiento Correctivo",
             "se verifican los parametros del sistema de comunicaciones, se cambia antena gps, corneta del feed que estaba rota, se cambia lnb_a01848b14 por el a01495a82, switch_g130424592 por el sixnet_t135006882 se realiza poda, fumigacion y limpiea gral de la estacion.",
             "Johnnatan Fernandez"
         ],
-        "recomendaciones": " ",
-        "fecha_creacion": "2024-1-10 ",
-        "n_img_ruido": 0,
+        "recomendaciones": "Realizar el mantenimiento preventivo de la estaci\u00f3n y ajustar el offset de la estaci\u00f3n acelerografica ",
+        "fecha_creacion": "2024-2-14",
+        "n_img_ruido": 1,
         "n_img_recom": 0
     }
 ]

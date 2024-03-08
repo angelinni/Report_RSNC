@@ -1,20 +1,20 @@
 [
     {
-        "funcionamiento": " ",
-        "disponibilidad": " ",
-        "gapover": " ",
-        "calidad": " ",
-        "offset": " ",
-        "ruido": " ",
+        "funcionamiento": "Durante el segundo semestre de 2023, la estaci\u00f3n CBOC, ha presentado un buen comportamiento en t\u00e9rminos de calidad de se\u00f1al y disponibilidad del dato.",
+        "disponibilidad": "La la estaci\u00f3n sismol\u00f3gica CBOC, funciono al 100% de disponibilidad durante el primer semestre de 2023",
+        "gapover": "La estaci\u00f3n ha presentado un valor promedio de overlaps promedio de 0.2 y un valor promedio de gaps 0.34, valores muy bajos que no han afectado la calidad de la se\u00f1al. \n",
+        "calidad": "Durante el segundo semestre de 2023, la estaci\u00f3n presenta gran cantidad de picos diarios (6), esto se debe principalmente a condiciones antr\u00f3picas de la estaci\u00f3n. se recomienda verificar conexiones el\u00e9ctricas que ayuden a disminuir la cantidad de picos diarios",
+        "offset": "Las tres componentes del sismometro se ha comportado con poca variabilidad en el semestre, , sin embargo la componente HZ presenta valores de Offset promedio de 5033 cuentas mientras la componente HN y HE presentan valores promedio de 1232 y  -7930  cuentas respectivamente, se recomienda tratar de bajar estos valores en la pr\u00f3xima visita. \n",
+        "ruido": "Durante el periodo 2023-II las curvas de ppsd muestran que los niveles de ruido de las tres componentes del sensor se han mantenido dentro de las curvas de referencia en todo el rango de frecuencias",
         "ultima_v": [
             "2022-11-13",
             "Mantenimiento Correctivo",
             "se  limpia antena, buc, lnb y feed y tambien se limpia la estacion, se cambia modem satelital con s/n: 161995394 ya que present\u00f3 fallas y no encendia, se instala modem con s/n: 072265319, se verifican par\u00e1metros de funcionamiento. pendiente: se debe podar alrededor de la estaci\u00f3n.\r\n",
             "Oscar Suarez"
         ],
-        "recomendaciones": " ",
-        "fecha_creacion": "2024-1-10 ",
-        "n_img_ruido": 0,
+        "recomendaciones": "realizar el mantenimiento preventivo, revisar conexiones el\u00e9ctricas con el objetico de disminuir picos en la se\u00f1al y podar alrededor de la estaci\u00f3n\n\n",
+        "fecha_creacion": "2024-2-16",
+        "n_img_ruido": 1,
         "n_img_recom": 0
     }
 ]

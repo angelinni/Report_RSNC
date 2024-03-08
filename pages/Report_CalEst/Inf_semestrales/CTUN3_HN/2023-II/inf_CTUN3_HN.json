@@ -1,20 +1,20 @@
 [
     {
-        "funcionamiento": " ",
-        "disponibilidad": " ",
-        "gapover": " ",
-        "calidad": " ",
-        "offset": " ",
-        "ruido": " ",
+        "funcionamiento": "En el periodo 2023-II la disponibilidad de la estaci\u00f3n fue del 97.67%. Estuvo por fuera el 17 de septiembre y 06 de octubre de 2023, debido a problemas con el operador de la red celular, se realizo el cambio de simcard durante la ultima visita y desde entonces la estaci\u00f3n ha tenido una disponibilidad del 100%",
+        "disponibilidad": "\nDurante el periodo 2023 - I la estaci\u00f3n sismol\u00f3gica ha presentado un promedio de disponibilidad del 97.67%\n",
+        "gapover": "Se han presentado un valor m\u00e1ximo de 5 Gaps diarios y un promedio de 0.6 debido a problemas en la cobertura de la red celular,  no se han presentado overlaps. Estos valores no han afectado la calidad de la se\u00f1al\n",
+        "calidad": "La estaci\u00f3n ha presentado buen registro en el periodo tiempo, solo se observa un pico en el semestre y este coincide con el corte del 06 de octubre de 2023",
+        "offset": "Durante el periodo 2023-II, la estaci\u00f3n offset promedio de -7003 cuentas en la componente Z, en la componente N 6085 cuentas y 7457 cuentas en la componente HNE ",
+        "ruido": "Durante el periodo 2023-II la estaci\u00f3n ha presentado valor promedio del ppsd por fuera del 41.% en sus tres componentes, esto se debe debido a la forma plana del espectro y actividades antr\u00f3picas de la estaci\u00f3n ya el ppsd excede las curvas de referencia para frecuencias menores a 0.1 Hz",
         "ultima_v": [
             "2023-10-05",
             "Mantenimiento Preventivo",
             "se realiza el cambio de la sim card, instalaci\u00f3n de gabinete met\u00e1lico para protecci\u00f3n y ubicaci\u00f3n de equipos e instalaci\u00f3n de panel solar 12v-80w.",
             "Ariel Portocarrero"
         ],
-        "recomendaciones": " ",
-        "fecha_creacion": "2024-1-10 ",
-        "n_img_ruido": 0,
+        "recomendaciones": "Realizar mantenimiento preventivo a la estaci\u00f3n\n",
+        "fecha_creacion": "2024-2-6",
+        "n_img_ruido": 1,
         "n_img_recom": 0
     }
 ]

@@ -1,20 +1,20 @@
 [
     {
-        "funcionamiento": " ",
-        "disponibilidad": " ",
-        "gapover": " ",
-        "calidad": " ",
-        "offset": " ",
-        "ruido": " ",
+        "funcionamiento": "En el periodo 2023-II la disponibilidad de la estaci\u00f3n fue del 74.94%.  debido a problemas en el banco de bater\u00edas lo cual ha ocasionado gran cantidad de GAPS en el segundo semestre de 2023",
+        "disponibilidad": "Durante el periodo 2023-II la estaci\u00f3n sismol\u00f3gica ha presentado un promedio de disponibilidad del 74.94%. La perdida de datos se debe principalmente a problemas en el banco de bater\u00edas.",
+        "gapover": "Durante el periodo 2023-II la estaci\u00f3n sismol\u00f3gica ha presentado un promedio 1.05 Gaps diarios debido a  problemas en el banco de bater\u00edas, y se han presentado overlaps espor\u00e1dicamente debido posiblemente a problemas de trasmisi\u00f3n ",
+        "calidad": "La estaci\u00f3n ha presentado buen registro en el periodo 2023-II, sin embargo en las componentes HHN presenta mayor cantidad de picos en el periodo (80),  aunque no afecta el funcionamiento se la estaci\u00f3n se evidencia una disminuci\u00f3n de la  recurrencia diaria de ellos, es importante, verificar conexiones el\u00e9ctricas durante las pr\u00f3ximas visitas.",
+        "offset": "Durante el periodo 2023-II, la estaci\u00f3n ha presentado un offset promedio de -27811 cuentas en la componente Z, en la componente N -14192 cuentas y -4663 cuentas la componente E. Desde el mes de octubre se observa un incremento en el offset de las tres componentes, estas subidas o bajadas s\u00fabitas del offset pueden generarse por problemas en conexiones el\u00e9ctricas, sin embargo, no es claro que los genera.\n",
+        "ruido": "Durante el periodo 2023-II las curvas de ppsd muestran que los niveles de ruido en la componentes permanecen dentro de las curvas de referencia para frecuencias mayores a 0.1 Hz. Para frecuencias menores las curvas exceden las de referencia indicando ruido cultural alto.\n",
         "ultima_v": [
             "2023-07-14",
             "Mantenimiento Correctivo",
             "debido a  descarga electrica se encontraron algunos equipos del sistema de counicacion con fallas, se cambiam modem, buc, lnb, banco de baterias, regulador solar y switch. se instalan 4 baterias secas  de 12vdc (2-75ah/2-55ah), se desyerba estacion y se lava arreglo de paneles solares. pendiente: instalacion banco de baterias, regulador solar",
             "Ariel Portocarrero"
         ],
-        "recomendaciones": " ",
-        "fecha_creacion": "2024-1-10 ",
-        "n_img_ruido": 0,
+        "recomendaciones": "Cambiar banco de varias y verificar conexiones el\u00e9ctricas para disminuir los picos en el registro\n\n",
+        "fecha_creacion": "2024-2-16",
+        "n_img_ruido": 1,
         "n_img_recom": 0
     }
 ]

@@ -309,8 +309,8 @@ class Plot():
             for e in fil_time["offs"]:
                 if e==0:
                     fil_time["offs"].iloc[i]=offset_prom
-                if abs(e) >abs(50*offset_prom) or abs(e)>100000:
-                    escala="log"
+                #if abs(e) >abs(50*offset_prom) or abs(e)>100000:
+                #    escala="log"
                 i=i+1
             #--------  
             
@@ -1598,7 +1598,7 @@ def get_bitacora(estacion, fecha_ini, fecha_fin):
         
     tab_est = pd.read_excel(file_xlsx)
     tab_est2 = tab_est.drop(tab_est.index[[0,1,2,3,4]])
-    tit=["FECHA","TURNO","CATEGORIA","ESTACION","NOVEDAD","OBSERVACIONES"]
+    tit=["FECHA","TURNO","USUARIO","CATEGORIA","ESTACION","NOVEDAD","OBSERVACIONES"]
     tab_est2.columns = tit
 
 
@@ -1972,6 +1972,8 @@ def actualizar_estado(est,sensor,act_sis,e_disp,p_sist,f_prob,f_act,act_elec):
         hoy = datetime.now()
         hoy = f_act
         text_fech_creacion= f"{hoy.year}/{hoy.month}/{hoy.day}"
+        if str(act_sis) != "nan":  act_sis = act_sis.replace("\n"," ")
+        if str(act_elec) != "nan":  act_elec = act_elec.replace("\n"," ")
         
         tab_est = pd.read_csv(file_esta)
         n_dict = pd.DataFrame({'fecha':[text_fech_creacion], 'act_sis':[act_sis],"act_elec":[act_elec],'e_disp':[e_disp],"p_sist":[p_sist],"f_prob":[f_prob]})
@@ -2195,6 +2197,19 @@ def create_db_all_state():
         
     tab_est = pd.read_excel(file_xlsx)
 
+    #fechas para el filtro de fechas de la tabla
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        fecha_ini= st.date_input("Fecha inicial",datetime.now()-timedelta(days=18))
+        mes_antes = datetime(fecha_ini.year, fecha_ini.month,fecha_ini.day)
+    with col2:
+        fecha_fin = st.date_input("Fecha final",datetime.now()-timedelta(days=2))
+        ayer = datetime(fecha_fin.year, fecha_fin.month,fecha_fin.day)
+    with col3:
+        st.write("")
+    #ayer= datetime.now()-timedelta(days=3)
+    #mes_antes=datetime.now()-timedelta(days=18)
+
     al_estacion, al_canal, al_sensor, al_prom_dis, al_gaps_prom, al_offset_prom, al_pic_prom, al_ppsd_prom, al_fecha_man, al_resp_tem, al_resp_elect = [],[],[],[],[],[],[],[],[],[],[]
     al_fecha_prob, al_estado_disp, al_probl_sist, al_act_sis,al_act_elec,al_fecha_act = [],[],[],[],[],[]
     l_estacion, l_canal, l_sensor, l_prom_dis, l_gaps_prom, l_offset_prom, l_pic_prom, l_ppsd_prom, l_fecha_man, l_resp_tem, l_resp_elect = [],[],[],[],[],[],[],[],[],[],[]
@@ -2228,9 +2243,6 @@ def create_db_all_state():
                 df_est["fecha"] = f_date
 
                 #filtro por fechas seleccionadas
-                
-                ayer= datetime.now()-timedelta(days=3)
-                mes_antes=datetime.now()-timedelta(days=18)
                 filtro_fecha = (df_est["fecha"] >= mes_antes) & (df_est["fecha"] <= ayer) 
                 fil_time = df_est[filtro_fecha]
 

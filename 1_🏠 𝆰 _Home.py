@@ -37,6 +37,7 @@ st.set_page_config(
     page_icon="〰️",
 )
 
+
 st.write("# Bienvenido a Reportes RSNC!")
 
 image = Image.open('pages/Report_Event/Simbolo_SGC_Blanco.png')

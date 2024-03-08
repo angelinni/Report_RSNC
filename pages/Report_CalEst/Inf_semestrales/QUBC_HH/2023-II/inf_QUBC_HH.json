@@ -1,20 +1,20 @@
 [
     {
-        "funcionamiento": " ",
-        "disponibilidad": " ",
-        "gapover": " ",
-        "calidad": " ",
-        "offset": " ",
-        "ruido": " ",
+        "funcionamiento": "En el periodo 2023-II la disponibilidad de la estaci\u00f3n fue del 74.54 %. Estuvo por fuera desde el 21 de julio de 2023 hasta el 15 de septiembre de 2023, debido a problemas en el sistema el\u00e9ctrico, se cambio de digitalizador q330, revisi\u00f3n de conexiones de energ\u00eda y comunicaciones, mantenimiento preventivo, aseo y poda de la estaci\u00f3n. \nLa estaci\u00f3n ha presentado buen funcionamiento luego de la visita de mantenimiento.",
+        "disponibilidad": "\nDurante el periodo 2023 - I la estaci\u00f3n sismol\u00f3gica ha presentado un promedio de disponibilidad del 74.54%\n",
+        "gapover": "Se han presentado un valor m\u00e1ximo de 2 Gaps diarios y un promedio de 0.28 debido a problemas en la cobertura de la red celular, se han  presentado un m\u00e1ximo de 32 overlaps y un promedio de 0.17,  asociados a problemas de transmisi\u00f3n. valores muy bajos que no han afectado la calidad de la se\u00f1al\n",
+        "calidad": "La estaci\u00f3n ha presentado buen registro en el periodo tiempo, con un m\u00e1ximo de picos diario de 18, asociados a actividades antr\u00f3picas en la regi\u00f3n o problemas en conexiones el\u00e9ctricas.\n",
+        "offset": "Durante el periodo 2023-II, la estaci\u00f3n offset promedio de 1569 cuentas en la componente Z, en la componente N 401 cuentas y -445 cuentas en la componente HNE , valores constantes y dentro de los par\u00e1metros de buen funcionamiento.",
+        "ruido": "Durante el periodo 2023-II la estaci\u00f3n ha presentado valor promedio del ppsd por fuera del 0.12.% en sus tres componentes, presenta un buen comportamiento en toda la banda de frecuencias.",
         "ultima_v": [
             "2023-09-15",
             "Mantenimiento Correctivo",
             "cambio de digitalizador q330, revisi\u00f3n de conexiones de energ\u00eda y comunicaciones, mantenimiento preventivo, aseo y poda de la estaci\u00f3n.",
             "Juan Manuel Solano"
         ],
-        "recomendaciones": " ",
-        "fecha_creacion": "2024-1-10 ",
-        "n_img_ruido": 0,
+        "recomendaciones": "La estaci\u00f3n ha presentado m\u00e1ximo de picos diario de 18, se recomienda revisar posibles problemas en conexiones el\u00e9ctricas.\n\n",
+        "fecha_creacion": "2024-2-5",
+        "n_img_ruido": 2,
         "n_img_recom": 0
     }
 ]

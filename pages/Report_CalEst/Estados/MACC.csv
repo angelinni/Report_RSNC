@@ -1,3 +1,4 @@
 fecha,act_sis,act_elec,e_disp,p_sist,f_prob
 16/1/2024,Desde el mantenimiento permanece saliendo diariamente en las noches permitiendo solo un 70% de disponibilidad diarial.,,Intermitente,Energía,2023-07-16
 2024/1/16,Desde el mantenimiento permanece saliendo diariamente en las noches permitiendo solo un 70% de disponibilidad diarial.,"Persiste inconveniente con la capacidad de las baterías, se debe instalar banco de baterías completo.",Intermitente,Energía,2023-07-16
+2024/2/27,Desde el mantenimiento permanece saliendo diariamente en las noches permitiendo solo un 70% de disponibilidad diarial.,"En los días en los que no hay suficiente radiación solar, las baterías no alcanzan a soportar la estación y se sale en las noches o en las madrugadas. Se requiere aumentar la capacidad de las baterías e instalar el banco de baterías completo.",Bien,Instrumentación,2023-07-16

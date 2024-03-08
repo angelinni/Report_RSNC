@@ -2,3 +2,6 @@ fecha,act_sis,act_elec,e_disp,p_sist,f_prob
 29/1/2024,,,Bien,ninguno,2024-01-29
 2024/1/29,La estación presenta un buen funcionamiento.,,Bien,ninguno,2024-01-29
 2024/1/29,La estación presenta un buen funcionamiento.,,Bien,ninguno,2024-01-29
+2024/2/5,La estación presenta un buen funcionamiento.,La estación esta en buen funcionamiento y permite el registro de eventos  sísmicos. ,Bien,ninguno,2024-01-31
+2024/2/21,Se salen los sensores 10.20 el 2024/01/29 a las 21:27 UTC,La estación esta en buen funcionamiento y permite el registro de eventos  sísmicos. ,Por fuera,Otro,2024-01-29
+2024/2/21,Se salen los sensores 10.20 el 2024/01/29 a las 21:27 UTC,"La estación sale de operación 2024/01/29 21:34 al parecer por inconvenientes ethernet con el digitalizador, ya que la conexión con el modem celular se encuentra OK.",Por fuera,Otro,2024-01-29

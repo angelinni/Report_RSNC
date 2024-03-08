@@ -1,20 +1,20 @@
 [
     {
-        "funcionamiento": " ",
-        "disponibilidad": " ",
-        "gapover": " ",
-        "calidad": " ",
-        "offset": " ",
-        "ruido": " ",
+        "funcionamiento": "En el periodo 2023-II la disponibilidad de la estaci\u00f3n fue del 99.11%. Durante los d\u00edas del 14 al 19 de julio de 2023, la estaci\u00f3n estuvo por fuera, debido a que no se contaba con contrato para la recarga y camio de Simcards.",
+        "disponibilidad": "Durante el periodo 2023-II la estaci\u00f3n sismol\u00f3gica ha presentado un promedio de disponibilidad del 99.11%\n",
+        "gapover": "Se han presentado un valor m\u00e1ximo de 3 Gaps diarios y un promedio de 0.56 ,los cuales son aceptables. No se han presentado overlaps.\n",
+        "calidad": "La estaci\u00f3n ha presentado buen registro en el periodo tiempo, con un m\u00e1ximo de picos diario de 1, asociado a actividades antr\u00f3picas en la regi\u00f3n\n",
+        "offset": "Durante el periodo 2023-II, la estaci\u00f3n offset promedio de 670 cuentas en la componente Z, en la componente N -5314 cuentas y -3471 cuentas, valores que se han mantenido constantes.",
+        "ruido": "Durante el periodo 2023-II las curvas de ppsd muestran que los niveles de ruido en la componente vertical y horizontales se mantienen m\u00e1s del 40%, esto se observa cerca de la banda de frecuencias de 1Hz y para frecuencias menores a 0.1Hz, banda de frecuencia en el que el aceler\u00f2grafo no tiene una respuesta adecuada. Para las frecuencias cercanas a 1 Hz, se asocian a actividades antr\u00f3picas cerca a la estaci\u00f3n",
         "ultima_v": [
-            "",
-            "",
-            "",
-            ""
+            "2023-09-20",
+            "Mantenimiento Correctivo",
+            "se realiza el cambio del chip de comunicaciones. se realiza limpieza de los paneles solares. se realiza limpieza de la zona. se realiza centrado de masas al sism\u00f3metro y se confirma el correcto funcionamiento de la estaci\u00f3n con la sede principal en bogot\u00e1",
+            "Oscar Suarez"
         ],
-        "recomendaciones": " ",
-        "fecha_creacion": "2024-1-10 ",
-        "n_img_ruido": 0,
+        "recomendaciones": "Realizar el mantenimiento preventivo de la estaci\u00f3n\n\n",
+        "fecha_creacion": "2024-2-16",
+        "n_img_ruido": 1,
         "n_img_recom": 0
     }
 ]

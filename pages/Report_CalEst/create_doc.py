@@ -79,6 +79,9 @@ def mk_doc(est,sensor,cod_l,semestre,est_din,est_gapover,est_off,est_ppsd_pic,co
     #filtro por Estación
     filtro_estacion = (tab_est["IDENTIFICADOR"] == est)
     fil_est = tab_est[filtro_estacion]
+
+    resp_tem, nombre, departamento, municipio, latitud, longitud, altura, resp_elect, resp_tem   = "","","","","","","","",""
+    estado, cond_ins, transmi, adquisicion, tip_est, equipos, f_in, f_fi  = "","","","","","","",""
     
     if len(fil_est) > 0:
         
@@ -122,7 +125,7 @@ def mk_doc(est,sensor,cod_l,semestre,est_din,est_gapover,est_off,est_ppsd_pic,co
 
 
     
-    print("##Cod localizacion",str(codigo_loc).rjust(2,"0"), cod_l)
+    #print("##Cod localizacion",str(codigo_loc).rjust(2,"0"), cod_l)
     
     ##EXTRAER INFORMACIÓN DE LOS JSON
     list_est_sen = glob.glob(os.path.dirname(os.path.abspath(__file__))+f"/Datos/CM/Tablas_Cal_tiempos/{est}_{sensor}Z*")

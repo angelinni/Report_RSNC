@@ -1,20 +1,20 @@
 [
     {
-        "funcionamiento": " ",
-        "disponibilidad": " ",
-        "gapover": " ",
-        "calidad": " ",
-        "offset": " ",
-        "ruido": " ",
+        "funcionamiento": "Durante el semestre de 2023 - II, la estaci\u00f3n ARMEC, la cual llega a la Universidad del Quind\u00edo y es compartida a la sede central del SGC v\u00eda internet, ha presentado GAPS debido principalmente debido principalmente a problemas ocasionados fallas del fluido el\u00e9ctrico del sector y problemas del servicio de internet de la Universidad del Quind\u00edo",
+        "disponibilidad": "La estaci\u00f3n acelerogr\u00e1fica ARMEC, funciono al 89.6% de disponibilidad durante el segundo semestre de 2023.",
+        "gapover": "La estaci\u00f3n acelerogr\u00e1fica ha presentado un valor promedio de de gaps 4.8, estos ocasionados principalmente por problemas de la trasmisi\u00f3n de datos v\u00eda, los cuales coinciden con las fallas que se han reportado en la transmisi\u00f3n de datos.",
+        "calidad": "Durante el segundo semestre de 2023, la estaci\u00f3n presenta gran cantidad de picos diarios (11), esto se debe principalmente a condiciones antr\u00f3picas de la estaci\u00f3n, la cual se encuentra en predios de la Universidad del Quind\u00edo en un sitio altamente transitado por veh\u00edculos y paso peatonal, a pesar de esto ha mostrado un buen comportamiento durante el semestre.\n",
+        "offset": "Las tres componentes del aceler\u00f3metro presentan gran variabilidad del offset en el tiempo, esto debido posiblemente a las condiciones de ruido del sitio, sin embargo la componente HZ presenta valores de Offset promedio de 5156 cuentas mientras la componente HN y HE presentan valores promedio de 24 y -2496 cuentas respectivamente, se recomienda tratar de bajar estos valores en la pr\u00f3xima visita. \n",
+        "ruido": "Durante el segundo semestre de 2023, el ruido de la estaci\u00f3n se mantiene m\u00e1s del 80% del tiempo por encima de las curvas de referencia de Peterson, esto se debe principalmente a ruido antr\u00f3pico ya que la estaci\u00f3n se encuentra pr\u00f3xima a una v\u00eda de acceso a la universidad y al tr\u00e1nsito de estudiantes, como se puede observar en las figuras del espectro, estos valores altos de ruido se present\u00e1ndose principalmente a frecuencias mayores a 1HZ (ruido antr\u00f3pico).\n",
         "ultima_v": [
             "2019-09-20",
             "Mantenimiento Correctivo",
             "se realiza mmtto correctivo a la estacion con la actualizacion del fimware que resuelve el problema de week number roll over, \n\nqueda operando correctamente.",
             "Andres Felipe Gomez"
         ],
-        "recomendaciones": " ",
-        "fecha_creacion": "2024-1-10 ",
-        "n_img_ruido": 0,
+        "recomendaciones": "Se recomienda durante la pr\u00f3xima visita realizar el ajuste del offset del aceler\u00f3grafo\n",
+        "fecha_creacion": "2024-2-16",
+        "n_img_ruido": 1,
         "n_img_recom": 0
     }
 ]

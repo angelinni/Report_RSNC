@@ -1,20 +1,20 @@
 [
     {
-        "funcionamiento": " ",
-        "disponibilidad": " ",
-        "gapover": " ",
-        "calidad": " ",
-        "offset": " ",
-        "ruido": " ",
+        "funcionamiento": "En el periodo 2023-II la disponibilidad de la estaci\u00f3n fue del 48.9%. debido a un problema en el modem satelital el cual fue reemplazado en la visita de mantenimiento preventivo el 13 de noviembre. Desde entonces el funcionamiento de la estaci\u00f3n ha sido correcto",
+        "disponibilidad": "Durante el periodo 2023-II la estaci\u00f3n sismol\u00f3gica ha presentado un promedio de disponibilidad del 49%\n",
+        "gapover": "Se han presentado un valor m\u00e1ximo de 2 Gaps diarios y un promedio de 0.18 ,los cuales son aceptables. Se ha presentado un promedio de overlaps de 0.1 los cuales son aceptables y se asocian a problemas del sistema de gps.\n",
+        "calidad": "Durante el segundo semestre de 2023, la estaci\u00f3n presenta gran cantidad de picos diarios (8), esto se debe principalmente a condiciones antr\u00f3picas de la estaci\u00f3n. se recomienda verificar conexiones el\u00e9ctricas que ayuden a disminuir la cantidad de picos diarios",
+        "offset": "Las tres componentes del sismometro se ha comportado con poca variabilidad en el semestre, , sin embargo la componente HZ presenta valores de Offset promedio de 2601 cuentas mientras la componente HN y HE presentan valores promedio de 296 y  63  cuentas respectivamente.\n",
+        "ruido": "Durante el segundo semestre de 2023, el espectro de ruido de la estaci\u00f3n excedi\u00f3 un 13%, del espectro de ruido se puede observar que la componente HHZ excede las curvas de referencia para periodos mayores a 20s, ruido asociado a actividades antropicas cerca de la estaci\u00f3n\n\n",
         "ultima_v": [
             "2022-10-10",
             "Mantenimiento Correctivo",
             "se cambia digitalizador q330_3903 por el q330_3994 por dano ene tarjeta de red, se instala cerca para proteger buc de la antena satelital, aseo general de la estacion.",
             "Juan Manuel Solano"
         ],
-        "recomendaciones": " ",
-        "fecha_creacion": "2024-1-10 ",
-        "n_img_ruido": 0,
+        "recomendaciones": "Realizar el mantenimiento preventivo de la estaci\u00f3n y revisar conexiones el\u00e9ctricas, la estaci\u00f3n presenta muchos picos",
+        "fecha_creacion": "2024-2-14",
+        "n_img_ruido": 1,
         "n_img_recom": 0
     }
 ]
